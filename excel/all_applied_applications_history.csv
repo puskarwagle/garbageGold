@@ -1,0 +1,952 @@
+Job ID,Title,Company,Work Location,Work Style,About Job,Experience required,Skills required,HR Name,HR Link,Resume,Re-posted,Date Posted,Date Applied,Job Link,External Job link,Questions Found,Connect Request
+4255192578,Frontend Developer,Compunnel Inc,mpunnel Inc,mpunnel Inc,"About the job
+The Expertise You Bring In
+This is a hands-on role where you will write code for product features. You will work closely with the technical lead, business development, client services and UX design teams to build intuitive and functional user interfaces. As a senior technical member of our team, you will guide junior engineers and help develop their technical skills.
+Expert in Angular, JavaScript, TypeScript, RxJS, HTML, and CSS/SCSS.
+Familiar with NgRx, Redux, or other state management patterns.
+Proficient in the use of Test Automation Tools and Frameworks such as Playwright, Cypress.
+Passionate about customer experience and good UX design.
+Experience working with REST APIs.
+Experience with automated CI/CD environments.
+Basic understanding of core Java technologies.
+Preferred experience with AWS or other cloud platforms and containerization technologies such as Docker",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 10:39:37.449024,https://www.linkedin.com/jobs/view/4255192578,Easy Applied,"{('how many years of work experience do you have with typescript?', '3', 'text', '3'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('how many years of work experience do you have with angular?', '3', 'text', '3'), ('how many years of work experience do you have with javascript?', '7', 'text', '7'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('mobile phone number', '481837086', 'text', '481837086'), ('Are you willing to work on W2? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option')}",In Development
+4257031952,Frontend Developer,LH,,,"About the job
+Frontend Software Engineer
+Location: Remote (Must be US based)
+Contract Length: 3 months minimum with possibility of extension
+Compensation: $40-48/hr
+
+About the Role
+LHH is seeking an experienced, passionate Frontend Engineer on behalf of our growing client who wants to work in a fast-paced, dynamic environment with a talented agile team. As part of a cross-functional team consisting of a product manager, designer, and 4-6 software engineers and QA analysts, you will be an active partner in the design, coding, unit testing, and release of new features and enhancements for our growing customer base.
+Our client values a fun, collaborative, team-oriented work environment, where they celebrate our accomplishments. 
+A Day in the Life
+Participate in UI design, technical design and code reviews
+Groom and provide technical scope for stories and epics in 2-week sprints
+Write high quality, performant, reusable frontend code for the UX in Rocket Lawyer’s products
+Write unit and integration tests that demonstrate that the code meets acceptance criteria
+Collaborate with other team members to incrementally deliver value to customers 
+Experience 
+Strong knowledge of modern JavaScript technologies such as Angular, React, and Typescript
+Strong knowledge of HTML, CSS/LESS/SASS
+Experience developing responsive interfaces for web and mobile
+Experience with performance debugging, benchmarking, and best practices
+3+ years of experience building web applications
+BS or MS degree in Computer Science or a related technical field
+Highly Desired 
+Experience with NextJS or another React framework
+Strong interest in building delightful, intuitive user experiences
+Experience with testing frameworks such as Jest and JUnit
+Working knowledge of backend technologies like Java Spring Boot, Node, REST-based API development
+Knowledge of web architecture and the HTTP protocol
+Understanding of microservices architecture
+Experience with MVC development
+Knowledge of caching strategies
+Knowledge of cloud development
+Familiarity with Jenkins and CI/CD environments
+Experience developing internationalized software
+Experience integrating and configuring CMS, CDP, tag managers, marketing analytics and other MarTech technologies
+
+Benefit Offerings: Benefit offerings include medical, dental, vision, life insurance, short-term disability, additional voluntary benefits, EAP program, commuter benefits and 401K plan. Our program provides employees the flexibility to choose the type of coverage that meets their individual needs. Available paid leave may include Paid Sick Leave, where required by law; any other paid leave required by Federal, State, or local law; and Holiday pay upon meeting eligibility criteria.
+
+Disclaimer: This is not a C2C opportunity and our client is not able to sponsor visa’s. If you require sponsorship or require a C2C arrangement, you will not be considered for this role.",3,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 10:40:00.817923,https://www.linkedin.com/jobs/view/4257031952,Easy Applied,"{('how many years of work experience do you have with typescript?', '3', 'text', '3'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of work experience do you have with react.js?', '3', 'text', '3'), ('how many years of work experience do you have with angular?', '3', 'text', '3'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('mobile phone number', '481837086', 'text', '481837086'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""No""<No>', 'radio', '""No""<No>')}",In Development
+4252650296,Junior Software Engineer,BeaconFire Inc,aconFire Inc,aconFire Inc,"About the job
+About the job
+
+BeaconFire is based in Central NJ, specializing in Software Development, Web Development, and Business Intelligence; looking for candidates with a strong background in Software Engineering or Computer Science for a Java / Software Developer position
+
+Job Responsibilities: 
+
+Develop applications using Java 8/JEE (and higher), Angular 2+, React.js, SQL, Spring, HTML5, CSS, JavaScript, and TypeScript among other tools.
+Write scalable, secure, and maintainable code that powers our clients’ platforms.
+Create, deploy, and maintain automated system tests.
+Works with Testers to understand defects opened and resolve them in a timely manner
+Supports continuous improvement by investigating alternatives and technologies and presenting these for architectural review
+Collaborates effectively with other team members to accomplish shared user story and sprint goals
+
+Requirement:
+
+Experience in the programming language Java and JavaScript
+Decent understanding of the software development life cycle
+Basic programming skills using object-oriented programming (OOP) languages with in-depth knowledge of common APIs and data structures like Collections, Maps, lists, Sets, etc.
+Knowledge of relational databases (e.g. SQL Server, Oracle) basic SQL query language skills
+
+Preferred Qualifications:
+
+Master’s Degree in Computer Science (CS)
+0-1 year of practical experience in Java coding
+Experience using Spring, Maven, and Angular frameworks, HTML, CSS
+Knowledge of other contemporary Java technologies (e.g. Weblogic, RabbitMQ, Tomcat, etc.) · Knowledge of JSP, J2EE, and JDBC
+
+Compensation:
+
+$65,000.00 to $80,000.00 /year
+
+BeaconFire is an E-verified company that provides equal employment opportunities (visa sponsorship provided)",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,True,Unknown,2025-06-28 10:40:10.930303,https://www.linkedin.com/jobs/view/4252650296,Easy Applied,"{('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Have you completed the following level of education: Bachelor\'s Degree? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('mobile phone number', '481837086', 'text', '481837086'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""No""<No>', 'radio', '""No""<No>')}",In Development
+4258498133,Software Engineer Intern,nar,r,r,"About the job
+Company Mission
+narb is an early-stage startup committed to pioneering accessible and open-source technology solutions. Following a strategic infusion of capital from a visionary investor, we have accelerated our mission to democratize cutting-edge technology. We are currently developing narba, an innovative outbound AI voice-call assistant capable of making simultaneous calls using the user’s own voice. At narb, we value creativity, openness, and proactive initiative as we strive to create technology that truly enhances everyday life.
+
+We’re seeking talented, driven interns eager to make an immediate, tangible impact from day one. Join our engineering team and play a central role in shaping the future of human-like voice-driven automation
+
+RESPONSIBILITIES
+Build robust mobile and web interfaces for narba using React Native, Next.js, and TypeScript.
+Implement front-end components and integrate APIs to manage real-time voice interactions and dynamic user experiences.
+Contribute actively to architectural decisions around voice-processing integrations and AI-driven outbound call workflows.
+Develop and maintain reliable, secure, and scalable applications tailored to AI-driven conversational and voice-call technology.
+Collaborate closely with machine learning and UX interns to ensure smooth integration of AI voice models and seamless user experience.
+Document and share your technical insights through weekly LinkedIn or developer-blog updates.
+Participate actively in sprint meetings, code reviews, and agile development processes.
+
+QUALIFICATIONS
+Undergraduate student pursuing majors in:
+Computer Science, Software Engineering, Information Technology, or related technical fields
+Electrical & Computer Engineering, Computational Linguistics, or Data Science
+Digital Media, Cognitive Science, or Human-Computer Interaction (HCI) with a strong technical foundation
+Required technical proficiencies:
+Strong hands-on experience in React Native, Next.js, and TypeScript
+Comfortable integrating RESTful APIs and managing state efficiently
+Experience with Git/GitHub, CI/CD workflows, and agile methodologies
+Excellent debugging, testing, and documentation skills
+Highly motivated, organized, reliable, and able to deliver consistently within tight deadlines
+Effective communication skills and ability to collaborate cross-functionally
+(Open to extremely ambitious upper-class high-schoolers if given provided portfolio)
+
+PREFERRED EXPERIENCE AND SKILLS
+Familiarity with Retrieval-Augmented Generation (RAG), vector databases (e.g., Pinecone, pgvector, Chroma, Weaviate)
+Knowledge of AI voice models and voice-agent frameworks (e.g., Whisper, VALL-E, Eleven Labs, OpenAI TTS)
+Prior experience with voice-enabled or conversational applications
+Familiarity with in-house automation platforms or no-code/low-code AI automation tools (e.g., n8n, Zapier, Make)
+Understanding of real-time communication protocols (WebRTC, WebSockets)
+
+WHY JOIN US
+Direct involvement in pioneering an AI-driven voice-call assistant poised to redefine user interactions at scale
+Leveraging stable investment capital, you’ll work within a creative environment optimized for rapid innovation
+Receive personalized mentorship and collaboration opportunities from dedicated startup founders and experienced engineers
+Build high-impact portfolio projects and develop professional networks across technology leaders
+Enjoy a flexible remote work environment designed for asynchronous collaboration
+Initial internship unpaid, with clear pathways to performance-based incentives and future paid roles as the company scales
+
+narb is an Equal Opportunity/Affirmative Action Employer. We consider applicants without regard to race, color, religion, gender, sexual orientation, gender identity, national origin, disability, veteran status, or any other protected class.",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 10:40:23.335944,https://www.linkedin.com/jobs/view/4258498133,Easy Applied,"{('how many years of work experience do you have with rest apis?', '8', 'text', '8'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('how many years of work experience do you have with react native?', '4', 'text', '4'), ('mobile phone number', '481837086', 'text', '481837086'), ('how many years of work experience do you have with machine tools?', '5', 'text', '')}",In Development
+4252665944,Software Engineer,HartleyC,rtleyC,rtleyC,"About the job
+Back-End/Full-Stack Engineer - Early-Stage AI Startup (San Francisco, CA)
+Compensation: $120K-$210K + equity (0.2%-0.75%)
+Visa: Sponsorship available
+Location: In-person, SF
+
+Our client is a fast-growing AI company automating operations with AI-powered agents that can process unstructured documents, input data into internal systems, and even make phone calls. They’ve recently closed a significant seed round from top investors and are looking for talented engineers to help shape the core product.
+
+About the Role:
+
+You’ll be one of the first engineering hires, owning critical components of the backend and helping scale a highly performant product from the ground up. You’ll work closely with the founders and play a key role in delivering a robust, adaptable AI platform.
+
+Your Experience:
+
+3+ years of experience working on early-stage products
+Proven ability to design and scale high-performance backend systems (Python preferred)
+Strong communicator and self-starter who thrives in a small, focused team
+Prior B2B SaaS experience is a plus
+Unrelenting drive to build world-class software
+
+Why Join?
+
+This is a chance to work directly with a driven team on a transformative AI product at the ground level. You’ll have real impact, strong equity upside, and the opportunity to grow as part of a startup that’s going places fast.
+
+If you want to help shape the future of AI-driven automation, this could be a perfect fit. Reach out to explore further - we’d love to talk!",3,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Josh Kelly ,https://www.linkedin.com/in/josh-kelly-402963144,Previous resume,False,Unknown,2025-06-28 10:40:30.729142,https://www.linkedin.com/jobs/view/4252665944,Easy Applied,"{('Have you graduated from a top 30 CS school? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Have you worked for TCS, Cognizant, Wipro, etc? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('how many years of work experience do you have with react.js?', '3', 'text', '3'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Do you have experience working in a US-based Series A-D startup? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('mobile phone number', '481837086', 'text', '481837086'), ('how many years of work experience do you have with python (programming language)?', '2', 'text', '2')}",In Development
+4257429784,Full Stack Engineer (Python / React),Atti,ti,ti,"About the job
+Full Stack Engineer
+FastAPI/React.js
+Onsite, SF
+$200,000
+
+Overview
+Join the founding team of a well-funded, deep-tech startup in San Francisco on a mission to revolutionize the engineering world. Today's design software is stuck in the past; this company is building a modern, GPU-native platform from the ground up to empower engineers in aerospace, automotive, and beyond. As a foundational engineer, you will have unparalleled impact and ownership, working directly with founders from a world-leading aerospace company to shape the product, culture, and future of engineering itself.
+
+The Role
+As a Founding Full Stack Engineer, you will design, build, and deploy core features across the entire platform. This role requires mastery of a modern tech stack, including a TypeScript/React front-end (with Three.js) and a Python back-end (with FastAPI), to create a seamless and powerful user experience for hardware engineers.
+
+Essential Requirements
+Strong professional experience with both Python and TypeScript/React.
+Proven track record of building and shipping full-stack applications to production.
+Familiarity with at least one major cloud platform (AWS, GCP, or Azure).
+
+What will make you stand out
+Hands-on experience with 3D graphics libraries, especially Three.js.
+Knowledge of DevOps, containerization (Docker/Kubernetes), and CI/CD pipelines.
+
+Benefits & Perks
+A highly competitive salary (up to $200,000 USD) and a significant founding-team equity package.
+Premium health, dental, and vision insurance for you and your dependents.
+Daily catered lunches and a fully-stocked kitchen with snacks and drinks.
+Generous monthly stipends for wellness (gym, classes) and commuting.
+A comprehensive home office setup budget and the latest tech gear (MacBook Pro, etc.).
+Regular team offsites and fun social events to foster a collaborative culture.
+
+If you are interested in this role, please apply with your resume through this site.
+
+SEO Keywords for Search
+Full Stack Engineer, Software Engineer, Founding Engineer, Python Developer, TypeScript Developer, React Engineer, Senior Software Engineer, Python, TypeScript, React.js, Three.js, FastAPI, Pyvista, Polars, Cloud Engineer, AWS, GCP, Azure, Docker, Kubernetes, Pulumi, CI/CD, B2B SaaS, Engineering Software, Scientific Computing, GPU, CAD, CAE, Simulation Software, San Francisco, Bay Area.
+
+Disclaimer
+Attis Global Ltd is an equal opportunities employer. No terminology in this advert is intended to discriminate on any of the grounds protected by law, and all qualified applicants will receive consideration for employment without regard to age, sex, race, national origin, religion or belief, disability, pregnancy and maternity, marital status, political affiliation, socio-economic status, sexual orientation, gender, gender identity and expression, and/or gender reassignment. M/F/D/V. We operate as a staffing agency and employment business. More information can be found at attisglobal.com.",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Cara Janes 🎻  ,https://www.linkedin.com/in/carajanes,Previous resume,False,Unknown,2025-06-28 10:40:38.571391,https://www.linkedin.com/jobs/view/4257429784,Easy Applied,"{('This role is 5 days a week onsite in SF. Can you confirm that is okay for you?  [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of work experience do you have with react.js?', '3', 'text', '3'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('mobile phone number', '481837086', 'text', '481837086'), ('Do you have startup experience?  [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('how many years of work experience do you have with python (programming language)?', '2', 'text', '2'), ('how many years of work experience do you have with three.js?', '5', 'text', '')}",In Development
+4232424015,Software Engineer,Parambi,rambi,rambi,"About the job
+Software Engineer - Founding Team // New York, NY 
+
+About Us
+At Parambil, we're building AI-powered tools to transform complex litigation. Our flagship AI medical record review platform is best-in-class for medical record review across mass torts, class action, and personal injury cases.
+
+We’re a lean, ambitious team backed by Daybreak Ventures and top angel investors, and we move fast. Every hire is critical to shaping the company. 
+
+The Parambil team brings together deep clinical and statistical expertise with cutting-edge technology. Among our founding members are a former McKinsey and QuantumBlack product lead, the former Head of Medicine at both Yale and Stanford, and a data scientist from a leading fintech company.
+
+The Role 
+Parambil is hiring a Software Engineer to bring our revolutionary technology to the tort law world. 
+
+The ideal candidate loves people, loves technology, and is excited about all things law, health, and AI. They will join us in our Flatiron office in person. 
+
+Responsibilities
+This isn’t a “cog in the machine” type of role. As an engineer on our team, you’ll:
+Own product features end-to-end — from design and implementation to deployment and iteration
+Work directly with the founders and other senior team members on core decisions
+Contribute to architectural and product discussions early in your career
+Write clean, scalable code across the stack 
+Help us ship fast, learn from users, and continuously improve the product
+You’ll have real responsibility from day one and the support to grow quickly.
+
+
+Qualifications
+A Bachelors Degree in Computer Science
+Solid foundation in programming fundamentals (data structures, algorithms, OOP)
+Experience with Python, Typescript, and React 
+Experience building with foundation models (projects are acceptable)
+Strong communicator and comfortable working in a fast-moving environment
+A builder’s mindset — you care about shipping things that matter
+
+
+Preferred, not required
+Internship or personal project experience
+Exposure to cloud platforms (e.g., AWS, GCP)
+Git, CI/CD, or basic DevOps familiarity
+Contributions to open-source or university projects
+
+
+Compensation:
+$60K-$90K + equity 
+Health insurance, 401K, and unlimited PTO 
+
+
+Why Parambil?
+Ownership & Impact: You’ll build meaningful features that go live quickly
+Elite Team: Build alongside the best talent in NYC 
+Fast Growth: Your work will directly shape our product and company trajectory
+Equity: You’ll own a piece of what you’re building
+Culture: We’re a tight-knit, no-ego team that values curiosity, speed, and execution",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 10:47:17.917046,https://www.linkedin.com/jobs/view/4232424015,Easy Applied,"{('what is your university grade point average (4.0 gpa scale)?', '5', 'text', ''), ('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('mobile phone number', '481837086', 'text', '481837086'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Have you completed the following level of education: Bachelor\'s Degree? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)')}",In Development
+4257053092,Full Stack Developer,iConsulter,onsulter,onsulter,"About the job
+Job Description:
+Develops both client-side (frontend) and server-side (backend) software components.
+
+Responsibilities:
+Build web applications from scratch using front-end and back-end technologies.
+Integrate APIs and databases.
+Optimize performance and troubleshoot bugs.
+Collaborate with designers and product managers.
+
+Key Skills:
+HTML/CSS, JavaScript, React, Node.js, MongoDB, Express, Git",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 10:47:29.819465,https://www.linkedin.com/jobs/view/4257053092,Easy Applied,"{('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('mobile phone number', '481837086', 'text', '481837086'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4258205290,Full Stack Engineer,JBA Internationa,A Internationa,A Internationa,"About the job
+MUST HAVE GUIDEWIRE PC & JAVA SKILLS
+
+We are looking for highly skilled remote Developer with Guidewire PC and Java skills to join our team.
+
+
+Required Skills:
+Strong experience in Guidewire, Java, RESTful APIs and Web services and J2EE development. Please share highly skilled resumes for above position
+
+Please ask candidates to share the following informations
+NUMBER OF YEARS EXPERIENCE IN GUIDEWIRES PolicyCenter:
+
+Technology # of years hands-on experience Technical Assessment Rating(1 to 10 Highest)
+GW Product Model, APD App
+GW Rules
+GW Renewals/Workflows
+GW Integration
+GW Messaging
+GW PCFs
+GW Plugins
+GW Forms Framework
+J2EE design patterns
+Web services (SOAP, REST)
+J2EE/ Struts/Spring/Hibernate
+RDBMS /SQL/Stored procedures
+_______________________________________________________________________________________________________
+
+The ideal candidate will have a strong understanding of both Guidewire and Java and be able to develop and maintain complex web applications.
+Candidate should have very good hands-on experience in Java/J2EE and Guidewire Policy Center work across Enterprise projects.
+
+Please submit senior quality candidates with feedback from their references (with email address to follow up).
+
+Responsibilities
+Design, Develop and maintain Guidewire PC and Java based systems.
+Work with a team of engineers to deliver high-quality software.
+Stay up to date on the latest trends in Enterprise level frameworks and platforms.
+Will be responsible for researching and fact-finding to develop or modify information systems and system integrations.
+Assisting in defining best practices, defining standards, developing code libraries and Proof of Concepts.
+Preparing Detailed Specifications or Design from which programs will be written.
+Code/configure, unit test, review code, debug, document, and maintain complex software applications, in an environment that continuously introduces leading-edge technologies.
+This position may be required to lead a medium sized development team and mentor other less experienced developers.",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Jacqueline Buickians ,https://www.linkedin.com/in/jacqueline-buickians-b283b9130,Previous resume,False,Unknown,2025-06-28 10:47:36.987301,https://www.linkedin.com/jobs/view/4258205290,Easy Applied,"{('Are you willing to take a drug test, in accordance with local law/regulations? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of work experience do you have with spring framework?', '7', 'text', '7'), ('mobile phone number', '481837086', 'text', '481837086'), ('Are you willing to undergo a background check, in accordance with local law/regulations? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('how many years of work experience do you have with j2ee web services?', '5', 'text', ''), ('how many years of guidewire policy center do you have?', '5', 'text', ''), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)')}",In Development
+4253514172,React Developer,PTR Globa,R Globa,R Globa,"About the job
+Position Title: React Developer
+ Location: Plano, TX OR Columbus, OH
+ Duration: 8 Months (Contract to hire)
+
+Job Description:
+ We are looking for experienced React Developers to join a high-impact migration project transitioning from Angular to React. This is a great opportunity to work on a modern tech stack within a collaborative and fast-paced environment.
+Key Responsibilities:
+Participate in the migration of existing applications from Angular to React
+Develop scalable and maintainable front-end solutions using React.js
+Collaborate with cross-functional teams including designers, product managers, and backend developers
+Write clean, efficient, and well-documented code
+Troubleshoot and debug application issues as they arise
+Work closely with backend teams to integrate APIs and contribute to overall application performance
+Requirements:
+Strong hands-on experience with React.js and related front-end technologies
+Familiarity or past experience with Angular is a plus
+Experience in front-end development best practices and responsive design
+Ability to work in a collaborative team environment
+Excellent problem-solving and communication skills
+Nice to Have:
+Working knowledge or hands-on experience with Java, Spring Framework, and RESTful API development
+Ability to collaborate effectively with backend developers and contribute to full-stack solutions
+Understanding of backend integration, API security, and microservices architecture",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Sunny Mehandiratta ,https://www.linkedin.com/in/sunny-mehandiratta-5110a3b8,Previous resume,False,Unknown,2025-06-28 10:47:45.058548,https://www.linkedin.com/jobs/view/4253514172,Easy Applied,"{('Local to TX, OH or willing to relocate? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('mobile phone number', '481837086', 'text', '481837086'), ('Willing to work on W2? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)')}",In Development
+4252710612,Frontend Developer,"StarsHR, Inc","arsHR, Inc","arsHR, Inc","About the job
+The ideal candidate will be responsible for designing, developing, testing, and debugging responsive web and mobile applications for the company. Using JavaScript, HTML, and CSS, this candidate will be able to translate user and business needs into functional frontend design. 
+ Responsibilities
+Designing, developing, and testing UI for mobile and web applications
+Build reusable code and libraries for future use
+Accurately translate user and business needs into functional frontend code
+
+Qualifications
+
+Bachelor's degree or equivalent in Computer Science
+5+ years' experience in frontend development
+Frontend Developer with deep expertise in QML and C++
+Familiarity using Scrum/Agile development methodologies
+Experience building object oriented web applications in JavaScript, HTML5, and CSS3",5,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Selva Dasan,https://www.linkedin.com/in/selva-dasan-854370166,Previous resume,False,Unknown,2025-06-28 10:47:52.338402,https://www.linkedin.com/jobs/view/4252710612,Easy Applied,"{('Are you willing to take a drug test, in accordance with local law/regulations? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Are you comfortable working in an onsite setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of work experience do you have with qml?', '5', 'text', ''), ('how many years of work experience do you have with c++?', '2', 'text', '2'), ('mobile phone number', '481837086', 'text', '481837086'), ('Are you willing to undergo a background check, in accordance with local law/regulations? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Have you completed the following level of education: Bachelor\'s Degree? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)')}",In Development
+4212822011,Software Engineer,Spacebas,acebas,acebas,"About the job
+Please note: This position is only open to candidates who currently reside in the Santa Barbara area. 
+
+About Spacebase
+Spacebase is a modern real estate SaaS platform that helps companies manage their real estate and other assets globally. Our clients include companies such as Airbnb, Stripe, Lyft, Dr. Martens, Gulfstream, Le Creuset, and more. We’re a small, profitable company based in Santa Barbara, with a focus on our team, our product, and the value that we provide to our clients. 
+
+About the Role
+Spacebase is seeking a Software Engineer to join our early stage team in Santa Barbara. Our engineers strive to identify the core problems faced by customers, and craft solutions that are beautiful, both inside and out. We use Python and Django primarily, but we're comfortable using and learning a variety of technologies. As an early member of the team, you'll have the opportunity to contribute to the product in a meaningful way, and to learn first hand what it takes to operate and scale a growing technology company.
+
+Responsibilities
+Lead website upgrades to improve user experience, optimize performance, and implement new features
+Provide dedicated support to clients throughout the onboarding and implementation process, ensuring seamless integration of software solutions and timely resolution of client inquiries and requests
+Assist with developing new features and debug existing code
+Other duties as assigned 
+
+Qualifications
+BS in Computer Science, Engineering, or related technical discipline
+Familiarity with Python and Django
+Experience with modern web frameworks
+Strong sense of product, user experience, and design
+
+As the right person for our team, you place integrity above everything else, enjoy working as part of a small, collaborative team, are comfortable with uncertainty, and can take initiative and ownership over the projects that you work on.
+
+Our company is based in Santa Barbara, and our team members have the option to work from home or from the office, with regular team meetups. We also offer full health, dental, and vision benefits, as well as a generous vacation policy.
+
+To apply please email christian@spacebaseapp.com with your resume and why you think you’d be a great fit for the role.
+
+We’re looking forward to hearing from you!",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 10:48:01.548212,https://www.linkedin.com/jobs/view/4212822011,Easy Applied,"{('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('mobile phone number', '481837086', 'text', '481837086'), ('Do you currently reside in or near Santa Barbara, California? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4256167730,Full Stack Engineer,Pagos Consultant,gos Consultant,gos Consultant,"About the job
+5+ years of fullstack development experience.
+Strong proficiency in Python (FastAPI), JavaScript/TypeScript, Node.js, and React.
+Proven experience building scalable APIs and web applications.
+Solid knowledge of relational and non-relational databases.
+Hands-on experience with LLMs and frameworks like LangChain or similar.
+Familiarity with vector databases, RAG pipelines, and async programming.
+Experience with crypto data and APIs.
+Comfortable working in fast-paced, self-directed environments.",5,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Rochelle Bruce ,https://www.linkedin.com/in/rochelle-bruce-1740a9181,Previous resume,False,Unknown,2025-06-28 10:48:14.386043,https://www.linkedin.com/jobs/view/4256167730,Easy Applied,"{('how many years of work experience do you have with large language models (llm)?', '5', 'text', ''), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""No""<No>', 'radio', '""No""<No>'), ('Are you comfortable commuting to this job\'s location? [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None), ('how many years of work experience do you have with web3?', '5', 'text', ''), ('how many years of work experience do you have with artificial intelligence (ai)?', '5', 'text', ''), ('mobile phone number', '481837086', 'text', '481837086'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)')}",In Development
+4246390597,Python and Node Full Stack Developer,BeaconFire Solution Inc,aconFire Solution Inc,aconFire Solution Inc,"About the job
+BeaconFire is based in Central NJ, specializing in Software Development, Web Development, 
+and Business Intelligence; looking for candidates with a strong background in Software 
+Engineering or Computer Science for a Python/Node Full Stack Developer position. 
+
+Job Responsibilities: 
+● Collaborate with the team to design and develop high quality Web applications using 
+Python, Flask, JavaScript, Node, React, and related technologies. 
+● Write clean and efficient code, and ensure code maintainability and reusability. 
+● Perform code reviews to ensure code quality and consistency. 
+● Conduct testing to ensure application quality and reliability. 
+● Create and maintain technical documentation for web applications. 
+● Participate in project planning, estimation, and prioritization. 
+● Stay up to date with the latest technologies for Python and JavaScript development. 
+
+Requirement: 
+● Experience in software development in Python3 and/or JavaScript (ES6). 
+● Decent understanding of the software development/testing life cycle. 
+● Knowledge of relational/non-relational databases (e.g. MySQL, PostgreSQL, MongoDB, 
+etc) 
+● Experience with version control tools, such as Git. 
+
+Preferred Qualifications: 
+● Master’s Degree in Computer Science, Software Engineering, or related field. 
+● 0 - 1 year professional experience in Python web application development with either 
+Flask or Django. 
+● 0 - 1 year professional experience in JavaScript web application development with React 
+or Node 
+● Experience in RESTful API development in Python or Node. 
+● Understanding of Python/JavaScript web application frameworks such as Flask or 
+ExpressJS. 
+● Experience with Cloud services, such as AWS. 
+
+Compensation: $65,000.00 to $80,000.00 /year 
+
+BeaconFire is an e-verified company. Work visa sponsorship is available.",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Anna Li,https://www.linkedin.com/in/anna-li-9a70a6195,Previous resume,True,Unknown,2025-06-28 10:48:51.204065,https://www.linkedin.com/jobs/view/4246390597,Easy Applied,"{('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('phone', '481837086', 'text', '481837086'), ('Email [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4255922117,Full Stack Engineer,Pitchi,tchi,tchi,"About the job
+About Pitchit.ai
+Pitchit.ai is revolutionizing lead qualification with lightning-fast AI agents that can make the dials, send the messages, and execute the outbound workflows that humans can't do, won't do, or fail to do profitably.
+
+Role Description
+This is a full-time remote role for a Full Stack Engineer at Pitchit. The Full Stack Engineer will be responsible for both front-end and back-end development, software development, and using Cascading Style Sheets (CSS) to create a seamless user experience.
+
+Qualifications
+ALL APPLICANTS MUST FOLLOW OUR LINKEDIN COMPANY PAGE TO BE CONSIDERED
+Back-End Web Development and Full-Stack Development skills
+Front-End Development and Cascading Style Sheets (CSS) skills
+Experience in software development
+Strong problem-solving skills and attention to detail
+Ability to work in a team and independently
+Bachelor's degree in Computer Science, Engineering, or related field",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 11:10:30.775381,https://www.linkedin.com/jobs/view/4255922117,Easy Applied,"{('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Are you comfortable working in a remote setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('mobile phone number', '481837086', 'text', '481837086'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)')}",In Development
+4254366130,Frontend Developer,Hansen Talent Group (HTG,nsen Talent Group,HTG,"About the job
+Hansen Talent Group is seeking a strong Front End Developer in the greater Columbia, SC area to support a growing development team! This is a hybrid, full time contract position. The ideal candidate has strong experience working with React. 
+
+The Front End Developer will be responsible for designing and developing front-end applications using typescript and javascript based code to include Vue.JS, React, and Angular. 
+ Responsibilities
+Collaborate with business units to understand clients' needs and requirements to develop technical specifications used through development processes.
+Develop front end code using React and VueJS, JavaScript, HTML/CSS.
+Integrate front end code to API. 
+Analyze existing code and applications to provide recommendations to improve frontend functionality.
+Test and debug code to ensure adequate coverage. 
+Design and develop technical documentation and workflows to be used in production support and end-user training.
+
+Qualifications
+
+In-depth experience supporting front end development 
+Hands-on development with React or VueJS",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Ashley Vinson,https://www.linkedin.com/in/ashley-oswald-vinson-780359173,Previous resume,False,Unknown,2025-06-28 11:10:59.174443,https://www.linkedin.com/jobs/view/4254366130,Easy Applied,"{('how many years of work experience do you have with vue.js?', '3', 'text', '3'), ('how many years of work experience do you have with react.js?', '3', 'text', '3'), ('mobile phone number', '481837086', 'text', '481837086'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Are you comfortable commuting to this job\'s location? [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None)}",In Development
+4240993980,Software Engineer,DoltHu,ltHu,ltHu,"About the job
+Dolt is the world's first version controlled SQL database. Dolt is built from the storage engine up to provide Git-style version control to tables instead of files. Dolt needs a full-stack software engineer who is passionate about databases and user experience to join the team Santa Monica.
+
+The ideal candidate will be responsible for developing the graphical interfaces to Dolt: DoltHub and the Dolt Workbench. DoltHub is a large scale website, akin to Dolt's GitHub, where users share and collaborate on Dolt databases. The Dolt Workbench is an Electron Desktop application available for Mac, Windows, and Linux. Both applications are written in React and use GraphQL to manage backend interactions. The backend for DoltHub is written in Golang. 
+
+Experience with React, GraphQL, Electron, and Golang are a plus. Full stack experience is a requirement. 
+
+Ability to build functional designs without the aid of a designer is a plus. Ability to interface effectively with design is a must.
+ Responsibilities
+Develop front end React and GraphQL components for DoltHub and the Dolt Workbench
+Develop backend service integrations in Golang
+Perform 24/7 operational duties for DoltHub
+Respond to customer inquiries and issues
+
+Qualifications
+Bachelor's degree or equivalent experience in Computer Science or related field
+Development experience with React and GraphQL preferred
+Development experience with Golang preferred
+Prefer some work experience",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 18:50:13.847364,https://www.linkedin.com/jobs/view/4240993980,Easy Applied,"{('mobile phone number', '481837086', 'text', '481837086'), ('Are you comfortable commuting to this job\'s location? [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None), ('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Are you comfortable working in an onsite setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""No""<No>', 'radio', '""No""<No>')}",In Development
+4255560655,Software Engineer,Xlent IT servic,ent IT servic,ent IT servic,"About the job
+
+Role Description
+This is a full-time, on-site role located in New York for a Software Engineer. The Software Engineer will be responsible for designing, developing, and maintaining software applications. Day-to-day tasks include working on back-end web development, programming, and implementing object-oriented programming (OOP) principles. The Software Engineer will collaborate with cross-functional teams to ensure high-quality software solutions that meet client needs.
+
+Qualifications
+Skills in Computer Science and Software Development
+Expertise in Back-End Web Development and Programming
+Proficiency in Object-Oriented Programming (OOP)
+Excellent problem-solving and analytical skills
+Effective communication and teamwork skills
+Bachelor's degree in Computer Science or a related field
+Experience in agile development methodologies is a plus",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 18:50:32.434432,https://www.linkedin.com/jobs/view/4255560655,Easy Applied,"{('mobile phone number', '481837086', 'text', '481837086'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('We must fill this position urgently. Can you start immediately? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Have you completed the following level of education: Bachelor\'s Degree? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>')}",In Development
+4256174246,Full Stack Engineer,Red Oak Technologie,d Oak Technologie,d Oak Technologie,"About the job
+Since 1995, Red Oak Technologies has been a trusted partner in the tech industry, delivering innovative talent solutions that drive progress. We specialize in quickly acquiring and efficiently matching top-tier professional talent with clients in immediate need of highly skilled contract, permanent or project management based resources.
+
+“NOTE: If selected for this position, you are required to perform ALL work onsite, based on the client’s specified hybrid work schedule (currently onsite 3 days a week: Tuesday, Wednesday and Thursday).”
+
+Full Stack Developer – AI/ML & RAG Integration (Python, React, GCP)
+
+Austin, TX 
+
+Role Overview:
+We are looking for a well-rounded Full Stack Developer with a strong foundation in Python, React, and experience in deploying lightweight applications. The role involves implementing Retrieval-Augmented Generation (RAG) models with LLMs, integrating with Google Cloud Platform (GCP) services such as BigQuery and Snowflake, and deploying production-ready solutions that handle ~100 daily users.
+
+Key Responsibilities:
+Build and deploy full stack, lightweight web applications from scratch
+Develop Python backends using REST APIs and WebSockets
+Implement and integrate RAG models for LLM-based applications
+Build user interfaces with React and connect to back-end services
+Integrate services with GCP (BigQuery) and Snowflake
+Containerize applications using Docker for scalable deployment
+Read and interpret AI/ML documentation to implement relevant features
+Handle basic data visualization (e.g., using Tableau – not advanced)
+Ensure responsive, efficient, and maintainable software architecture
+
+Requirements:
+Strong Python development skills (API, WebSockets)
+Front-end experience with React
+Solid understanding of full stack architecture and deployment
+Experience with LLMs, AI/ML wrappers, and RAG pipeline design
+Familiarity with GCP services, especially BigQuery and Snowflake
+Knowledge of Docker and containerization best practices
+Able to interpret technical documentation and self-start implementation
+Comfortable with ~100 concurrent users/day application performance
+Light Tableau experience (for basic reporting/dashboarding)
+
+Red Oak Technologies is made up of people from a wide variety of backgrounds and lifestyles. We embrace diversity and invite applications from people of all walks of life. See what it’s like to be at the top; connect with one of our recruiters and apply today.
+
+Let us help you find your next career opportunity! JOIN RED OAK TECHNOLOGIES!
+
+Learn what it’s like to be a Red Oak Consultant!
+
+Red Oak Five (Core Values): Relationships First | Exceptional Quality and Service | Unwavering Integrity and Trust | Be Easy To Do Business With | Respect Everyone",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Thomas Nacnodovitz ,https://www.linkedin.com/in/thomas-nacnodovitz-6ba12b39,Previous resume,False,Unknown,2025-06-28 18:50:40.328219,https://www.linkedin.com/jobs/view/4256174246,Easy Applied,"{('mobile phone number', '481837086', 'text', '481837086'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('how many years of work experience do you have with google cloud platform (gcp)?', '1', 'text', '1'), ('how many years of work experience do you have with python (programming language)?', '2', 'text', '2'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('how many years of work experience do you have with react.js?', '3', 'text', '3')}",In Development
+4254805309,Full Stack Engineer,Eden Prescot,en Prescot,en Prescot,"About the job
+On behalf of our client, Eden Prescott is partnering with a mission-driven AI company to find a Senior or Staff Full-Stack Engineer to help lead and scale their platform.
+
+This role sits at the intersection of engineering excellence, product innovation and AI. You’ll work cross-functionally with product, design, and machine learning teams to architect complex systems and build user-facing features with lasting impact. The team values craftsmanship, thoughtful collaboration, and a strong sense of ownership, and they're looking for someone who thrives in that kind of environment.
+
+What You’ll Bring
+
+3+ years of hands-on software engineering experience
+Fluency in modern web development using React, TypeScript, and Node.js
+A background in building scalable systems or complex UIs
+Comfort owning projects end-to-end, including mentoring or technical leadership
+A Bachelor’s degree in Computer Science or similar technical field
+
+What You’ll Do
+
+Design and implement end-to-end product features across the stack
+Set engineering best practices across architecture, performance, and code quality
+Collaborate with cross-functional partners to shape and deliver product roadmap
+Drive thoughtful, empathetic decision-making, balancing innovation with practical execution
+Provide mentorship to other engineers and contribute to a culture of technical excellence
+Lead initiatives to improve reliability, scalability, and security across the platform
+
+If you’re looking to build with purpose with a highly technical and mission-aligned team, this is a standout opportunity. We’d love to tell you more.
+
+$120,000 - $200,000 + equity + benefits",3,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Grady Lancaster ,https://www.linkedin.com/in/gradylancaster,Previous resume,False,Unknown,2025-06-28 18:50:51.965652,https://www.linkedin.com/jobs/view/4254805309,Easy Applied,"{('mobile phone number', '481837086', 'text', '481837086'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('how many years of work experience do you have with react.js?', '3', 'text', '3'), ('how many years of work experience do you have with node.js?', '5', 'text', '5')}",In Development
+4250987367,Full Stack Engineer,PGMTEK Inc,MTEK Inc,MTEK Inc,"About the job
+Seeking a Senior Full Stack Java Developer- (Angular, springboot) 
+
+Preferred Skills
+Knowledge of FIX (Financial Information eXchange protocol).
+Knowledge of Redis
+SOC 2 requirements
+Key Responsibilities
+Design, develop, and implement Java-based applications and solutions.
+Develop and maintain user interfaces using Angular and CSS.
+Write comprehensive test scripts to ensure code quality.
+Work with MySQL databases, including writing efficient queries.
+Deploy and manage applications on Google Cloud Platform (GCP) App Engine, and integrate with other Google APIs as necessary.
+Collaborate with team members to deliver high-quality solutions.
+
+Qualifications & Skills
+Proficiency in backend Java and experience with frameworks like Spring or Spring Boot.
+Experience with front-end development using Angular 12-14
+Solid understanding of relational databases, specifically MySQL.
+Experience with Google Cloud Platform (GCP), especially App Engine, and other Google APIs is necessary.
+Experience with Git and Jira.
+Strong problem-solving and communication skills are a must.
+Candidates proficient in two or more areas of full-stack development are considered.",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Jeff Higbee,https://www.linkedin.com/in/jeff-higbee-32300834,Previous resume,False,Unknown,2025-06-28 18:50:59.978827,https://www.linkedin.com/jobs/view/4250987367,Easy Applied,"{('mobile phone number', '481837086', 'text', '481837086'), ('Are you comfortable commuting to this job\'s location? [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Are you comfortable working in an onsite setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""No""<No>', 'radio', '""No""<No>')}",In Development
+4255360780,Ingeniero de software,Evertree,ertree,ertree,"About the job
+The ideal candidate will be responsible for developing high-quality applications. They will also be responsible for designing and implementing testable and scalable code. 
+ Responsibilities
+Develop quality software and web applications 
+Analyze and maintain existing software applications 
+Design highly scalable, testable code 
+Discover and fix programming bugs
+
+Qualifications
+Bachelor's degree or equivalent experience in Computer Science or related field 
+Development experience with programming languages 
+SQL database or relational database skills",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Betsaida Becerra Haro,https://www.linkedin.com/in/betsaida-becerra-haro-475607174,Previous resume,False,Unknown,2025-06-28 18:51:13.891875,https://www.linkedin.com/jobs/view/4255360780,Easy Applied,"{('¿cuántos años de experiencia tienes con sql?', '7', 'text', '7'), ('teléfono móvil', '481837086', 'text', '481837086'), ('Código del país [  ""Selecciona una opción"", ""Australia (+61)"", ""Afganistán (+93)"", ""Albania (+355)"", ""Alemania (+49)"", ""Andorra (+376)"", ""Angola (+244)"", ""Anguila (+1)"", ""Antigua y Barbuda (+1)"", ""Antillas Neerlandesas (+0)"", ""Antártida (+0)"", ""Arabia Saudita (+966)"", ""Archipiélago Svalbard e Isla de Jan Mayen (+47)"", ""Argelia (+213)"", ""Argentina (+54)"", ""Armenia (+374)"", ""Aruba (+297)"", ""Austria (+43)"", ""Azerbaiyán (+994)"", ""Bahamas (+1)"", ""Bahréin (+973)"", ""Bangladesh (+880)"", ""Barbados (+1)"", ""Belice (+501)"", ""Benín (+229)"", ""Bermudas (+1)"", ""Bielorrusia (+375)"", ""Birmania (+95)"", ""Bolivia (+591)"", ""Bosnia y Herzergovina (+387)"", ""Botswana (+267)"", ""Brasil (+55)"", ""Brunéi (+673)"", ""Bulgaria (+359)"", ""Burkina Faso (+226)"", ""Burundi (+257)"", ""Bután (+975)"", ""Bélgica (+32)"", ""Cabo Verde (+238)"", ""Camboya (+855)"", ""Camerún (+237)"", ""Canadá (+1)"", ""Chile (+56)"", ""China (+86)"", ""Chipre (+357)"", ""Colombia (+57)"", ""Comoras (+269)"", ""Congo (+242)"", ""Corea (+82)"", ""Corea del Norte (+850)"", ""Costa Rica (+506)"", ""Costa de Marfil (+225)"", ""Croacia (+385)"", ""Cuba (+53)"", ""Dinamarca (+45)"", ""Dominica (+1)"", ""Ecuador (+593)"", ""Egipto (+20)"", ""El Salvador (+503)"", ""Emiratos Árabes Unidos (+971)"", ""Eritrea (+291)"", ""Eslovenia (+386)"", ""España (+34)"", ""Estado de la Ciudad del Vaticano (Santa Sede) (+39)"", ""Estados Federales de Micronesia (+691)"", ""Estados Unidos (+1)"", ""Estonia (+372)"", ""Etiopía (+251)"", ""Federación Rusa (+7)"", ""Filipinas (+63)"", ""Finlandia (+358)"", ""Fiyi (+679)"", ""Francia (+33)"", ""Gabón (+241)"", ""Gambia (+220)"", ""Georgia (+995)"", ""Ghana (+233)"", ""Gibraltar (+350)"", ""Granada (+1)"", ""Grecia (+30)"", ""Groenlandia (+299)"", ""Guadalupe (+590)"", ""Guam (+1)"", ""Guatemala (+502)"", ""Guayana Francesa (+594)"", ""Guernsey (+44)"", ""Guinea (+224)"", ""Guinea Ecuatorial (+240)"", ""Guinea-Bissau (+245)"", ""Guyana (+592)"", ""Haití (+509)"", ""Honduras (+504)"", ""Hong Kong (+852)"", ""Hungría (+36)"", ""India (+91)"", ""Indonesia (+62)"", ""Irak (+964)"", ""Irlanda (+353)"", ""Irán (+98)"", ""Isla Bouvet (+0)"", ""Isla Norfolk (+672)"", ""Isla de Navidad (+61)"", ""Islandia (+354)"", ""Islas Caimán (+1)"", ""Islas Cocos (Keeling) (+61)"", ""Islas Cook (+682)"", ""Islas Feroe (+298)"", ""Islas Georgias del Sur y Sandwich del Sur (+0)"", ""Islas Heard y McDonald (+0)"", ""Islas Malvinas (+500)"", ""Islas Marianas del Norte (+1)"", ""Islas Marshall (+692)"", ""Islas Pitcairn (+0)"", ""Islas Salomón (+677)"", ""Islas Turcas y Caicos (+1)"", ""Islas Vírgenes Británicas (+1)"", ""Islas Vírgenes de los Estados Unidos (+1)"", ""Islas de Åland (+358)"", ""Isle of Man (+44)"", ""Israel (+972)"", ""Italia (+39)"", ""Jamaica (+1)"", ""Japón (+81)"", ""Jersey (+44)"", ""Jordania (+962)"", ""Kazajstán (+7)"", ""Kenia (+254)"", ""Kirguistán (+996)"", ""Kiribati (+686)"", ""Kosovo (+383)"", ""Kuwait (+965)"", ""Laos (+856)"", ""Lesoto (+266)"", ""Letonia (+371)"", ""Liberia (+231)"", ""Libia (+218)"", ""Liechtenstein (+423)"", ""Lituania (+370)"", ""Luxemburgo (+352)"", ""Líbano (+961)"", ""Macao (+853)"", ""Macedonia (+389)"", ""Madagascar (+261)"", ""Malasia (+60)"", ""Malawi (+265)"", ""Maldivas (+960)"", ""Mali (+223)"", ""Malta (+356)"", ""Marruecos (+212)"", ""Martinica (+596)"", ""Mauricio (+230)"", ""Mauritania (+222)"", ""Mayotte (+262)"", ""Moldavia (+373)"", ""Mongolia (+976)"", ""Montenegro (+382)"", ""Montserrat (+1)"", ""Mozambique (+258)"", ""México (+52)"", ""Mónaco (+377)"", ""Naciones del Caribe (+0)"", ""Namibia (+264)"", ""Nauru (+674)"", ""Nepal (+977)"", ""Nicaragua (+505)"", ""Nigeria (+234)"", ""Niue (+683)"", ""Noruega (+47)"", ""Nueva Caledonia (+687)"", ""Nueva Zelanda (+64)"", ""Níger (+227)"", ""Omán (+968)"", ""Pakistán (+92)"", ""Palaos (+680)"", ""Panamá (+507)"", ""Papúa Nueva Guinea (+675)"", ""Paraguay (+595)"", ""Países Bajos (+31)"", ""Perú (+51)"", ""Polinesia Francesa (+689)"", ""Polonia (+48)"", ""Portugal (+351)"", ""Puerto Rico (+1)"", ""Qatar (+974)"", ""Reino Unido (+44)"", ""República Centroafricana (+236)"", ""República Checa (+420)"", ""República Democrática del Congo (+243)"", ""República Dominicana (+1)"", ""República Eslovaca (+421)"", ""República de Chad (+235)"", ""República de Djibouti (+253)"", ""Reunión (+262)"", ""Ruanda (+250)"", ""Rumanía (+40)"", ""Sahara Occidental (+212)"", ""Samoa (+685)"", ""Samoa Americana (+1)"", ""San Cristóbal y Nieves (+1)"", ""San Marino (+378)"", ""San Pedro y Miguelón (+508)"", ""San Vicente y las Granadinas (+1)"", ""Santa Helena (+290)"", ""Santa Lucía (+1)"", ""Santo Tomé y Príncipe (+239)"", ""Senegal (+221)"", ""Serbia (+381)"", ""Serbia y Montenegro (+0)"", ""Seychelles (+248)"", ""Sierra Leona (+232)"", ""Singapur (+65)"", ""Siria (+963)"", ""Somalia (+252)"", ""Sri Lanka (+94)"", ""Suazilandia (+268)"", ""Sudáfrica (+27)"", ""Sudán (+249)"", ""Sudán del Sur (+211)"", ""Suecia (+46)"", ""Suiza (+41)"", ""Surinam (+597)"", ""Tailandia (+66)"", ""Taiwán (+886)"", ""Tanzania (+255)"", ""Tayikistán (+992)"", ""Territorio Británico del Océano Índico (+246)"", ""Territorios Palestinos (+970)"", ""Tierras Australes y Antártidas Francesas (+0)"", ""Timor Oriental (+670)"", ""Togo (+228)"", ""Tokelau (+690)"", ""Tonga (+676)"", ""Trinidad y Tobago (+1)"", ""Turkmenistán (+993)"", ""Turquía (+90)"", ""Tuvalu (+688)"", ""Túnez (+216)"", ""Ucrania (+380)"", ""Uganda (+256)"", ""Uruguay (+598)"", ""Uzbekistán (+998)"", ""Vanuatu (+678)"", ""Venezuela (+58)"", ""Vietnam (+84)"", ""Wallis y Futuna (+681)"", ""Yemen (+967)"", ""Zambia (+260)"", ""Zimbabue (+263)"", ]', 'Yes', 'select', 'Australia (+61)'), ('¿Has obtenido el siguiente título: Grado/licenciatura? [  ""Sí""<Yes>, ""No""<No>, ]', '""Sí""<Yes>', 'radio', '""Sí""<Yes>'), ('Email [  ""Selecciona una opción"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('¿cuántos años de experiencia tienes con base de datos relacional?', '5', 'text', '')}",In Development
+4243665609,JS Full Stack Developer,QDStaf,Staf,Staf,"About the job
+Join a fast growing software development company in Boca Raton as Full Stack Tools Developer. Build tools that contribute to award-winning mobile online games played in over 40 countries and consistently ranked in the top 10 in the biggest markets in the world.
+Responsibilities:
+Collaborate with small, rotating, interdisciplinary teams consisting of game designers, mathematicians, audio engineers, artists, and developers to produce web tools to assist with game design and development.
+Partner closely with our development community to continuously design, implement and improve internal tool development.
+Work with a modern tech stack using React, MongoDB, Prisma, SQL, TypeScript, and Node.js, utilizing Git workflows.
+Write well-architected, structured, and maintainable code.
+Participate in code reviews, providing thoughtful, constructive, and thorough feedback.
+Qualifications
+Strong TypeScript, JavaScript, and Node.js knowledge.
+Experience with React, GraphQL, Docker.
+3+ years of professional experience in software development in any major programming language (JavaScript, TypeScript, C#, C++, Java, etc.).
+Solid understanding of database design and implementation using relational and non-relational databases (MongoDB, PostgreSQL, etc.).
+Experience in designing, implementing, and maintaining robust back-end APIs.
+Good understanding of general OOP, SOLID principles, design patterns, debugging skills, memory management, and optimization techniques.
+Familiarity with modern development team workflows (pull requests, code reviews, package management).
+Clear communication skills in code, writing, and speaking.
+A positive attitude and a desire to grow.
+Familiarity with continuous integration.
+Mobile development experience and familiarity with its challenges and optimizations.
+Contributions to open-source projects, game jams, personal projects.
+Passion for AI
+Benefits:
+All benefits begin and are vested immediately.
+Zero deductible health care coverage
+30 days sick time
+17 vacation days plus 5 days off paid Christmas to New Year's and Federal holidays
+4% 401k match
+Eligible for 25% bonus paid quarterly based personal and game team performance
+Location:
+This role is based in Boca Raton, FL
+It is in-office 5 days per week
+Relocation expenses are paid
+Applicants should expect to complete an Assessment Evaluation as part of the interview process.
+About the company:
+This four studio software engineering company is averaging a 25% annual employee growth rate. With a median tenure of almost 4 years, employees are embracing the opportunity to innovate and personally contribute to global hit games in the world's leading portfolio of games.
+With no legacy or corporate entity to serve, this company is adopting leading technologies to deliver new and innovative experiences. Their games are achieving fast market penetration, high player satisfaction and superior quality. They recruit for attitude and aptitude. They believe the right people will employ their passion for gaming to create great product with minimal supervision/overhead which is the inspiration behind their distributed studio approach to growth. You owe it to yourself to see this amazing alternative to corporate and indie game development. 
+ About QDStaff
+QDStaff is North America's leading talent source for award-winning video game companies.
+We rotate job postings on platforms which sometimes causes jobs to appear closed when they are removed. Consult our careers page at https://www.qdstaff.com/careers to get access to this role and similar great opportunities.
+Follow us on LinkedIn https://www.linkedin.com/company/qdstaff/
+Visit us at https://www.qdstaff.com
+
+Desired Skills and Experience
+TYPESCRIPT
+JAVASCRIPT
+JS
+REACT
+NEXT.JS
+NEXTJS
+REACTJS
+REACT
+REACTJS
+NEXT.JS
+NEXTJS
+BLITZ
+REMIX
+GATSBY
+REACT
+SOFTWARE ENGINEER
+DEVELOPER
+PROGRAMMER
+TOOLS ENGINEER
+TOOLS DEVELOPER
+TOOLS DEVELOPER
+EXPERIENCE
+NODE
+SQL
+RELATIONAL
+NOSQL
+MERN
+MEAN
+NODEJS
+FULLSTACK
+FULL STACK
+FULL STACK
+FULL-STACK
+BACK-END
+BACKEND
+BACK END
+SERVELETS
+SERVER SIDE
+25-00108",4,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 18:51:22.917741,https://www.linkedin.com/jobs/view/4243665609,Easy Applied,"{('mobile phone number', '481837086', 'text', '481837086'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('last name', 'Chaulagain', 'text', 'Chaulagain'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('middle name', '5', 'text', '5'), ('first name', 'Amit', 'text', 'Amit')}",In Development
+4246005202,Full Stack Engineer,Glocomm,ocomm,ocomm,"About the job
+Opportunity: Full Stack Engineer
+
+Are you passionate about shaping the future of human and AI interaction while driving innovation in the pharmaceutical industry? Our client, based in New York City, is looking for a dynamic Full Stack Engineer to join their forward-thinking team. This is an in-person position that offers the chance to create impactful solutions that accelerate the development of life-saving therapies. Our client values kindness, intensity, intellectual honesty, and grit-making this an ideal role for someone ready to collaborate, innovate, and make a meaningful difference.
+
+Skills & Experience
+
+User-Centric Approach: Deep empathy for users, capable of analyzing workflows and developing intuitive interfaces to address user needs. Experience with Figma mock-ups and wireframes is a plus.
+Frontend Development Expertise: Skilled in HTML, CSS, and TypeScript with experience working on React component libraries to transform designs into functional code.
+AI Familiarity: Experience tinkering with LLMs, vector databases, and RAG systems, with a strong drive to integrate the latest AI research into products.
+Problem-Solving Mindset: Ability to iterate quickly, adapt to feedback loops, and build scalable, high-quality solutions.
+Modern Tech Stack Knowledge: Proficient in React, TypeScript, NodeJS, PostgreSQL, and Python.
+
+Compensation
+
+Our client offers a competitive salary ranging between $120,000 and $200,000, alongside generous equity grants. For non-NYC residents, relocation support is available.",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Hayden Clark ,https://www.linkedin.com/in/haydenclarktech,Previous resume,False,Unknown,2025-06-28 18:51:34.876012,https://www.linkedin.com/jobs/view/4246005202,Easy Applied,"{('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('phone', '481837086', 'text', '481837086')}",In Development
+4252853221,Frontend Developer,People Tech Group In,ople Tech Group In,ople Tech Group In,"About the job
+Hiring || PeopleTech Group || Remote || Fulltime - W2+Benefits || Front-End Developer || Direct-Client 
+
+Role: Front-End Developer 
+Duration: Full-Time - People Tech Group - W2+Benefits
+Location: Oregon, United States – Remote 
+  Job Description:
+
+Need strong front-end developers with following skillset.
+Need strong React Developer with Java script, Nodes, Angular.
+Need strong experience in Typescript.
+Great familiarity with React, Redux, Typescript, JavaScript, CSS, 3+ years of recent experiences on this.
+Great problem-solving skills.
+Familiarity with Git or other code repo version control tools.",3,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 20:00:33.998341,https://www.linkedin.com/jobs/view/4252853221,Easy Applied,"{('Are you comfortable working in a remote setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of work experience do you have with react.js?', '3', 'text', '3'), ('mobile phone number', '481837086', 'text', '481837086'), ('how many years of work experience do you have with typescript?', '3', 'text', '3'), ('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('how many years of work experience do you have with redux.js?', '2', 'text', '2'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4206542730,Frontend Developer,eranov,anov,anov,"About the job
+Role: Front End Developer
+Location: This is a Hybrid role
+
+About Eranova
+Eranova’s platform integrates emerging components across the Generative AI stack to drive value that was not reachable in recent years.
+
+Our platform helps enterprises across industries deploy AI Agents capable of solving problems and achieving levels of automation beyond the reach of traditional software.
+
+Our engineering team works in an aggressive and fast-paced environment but enables entry level through lead engineers to drive real impact and own major deliverables at a company carving the way for enterprise applications of AI Agents.
+
+https://eranova.ai
+
+Responsibilities
+Understand and maintain the front-end infrastructure of our platform
+Personally own and deliver new features within our platform (Anything from website features and functionality to new design and visuals)
+Emphasis on front-end application development and managing the company’s design and visual signature
+
+Qualifications
+Required / Must-have:
+Strong proficiency in JavaScript, HTML5, and CSS3
+Experience building responsive, accessible UIs using component libraries or design systems (e.g., Tailwind CSS, Material UI)
+Familiarity with TypeScript
+Experience integrating front-end applications with REST APIs
+Version control experience with Git
+Comfortable working with Figma or similar tools for implementing design specifications
+Understanding of front-end performance optimization techniques
+Ability to work in a fast-paced, agile environment
+Excellent communication skills and attention to detail
+Ability to organize, manage, and deliver multiple concurrent requirements on time
+Preferred:
+Experience working on AI-based platforms or integrating with AI/LLM-powered backends
+Familiarity with serverless architectures (especially using AWS services like API Gateway and Lambda)
+Solid/proven experience in front-end development with React.js and/or Next.js
+Basic understanding of Python or backend integration concepts
+Experience implementing real-time features (e.g., via WebSockets)
+Prior experience working in a client-facing role
+
+Note: This position does not offer visa sponsorship. Applicants must be authorized to work in the United States without sponsorship.",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 20:00:53.904963,https://www.linkedin.com/jobs/view/4206542730,Easy Applied,"{('how many years of work experience do you have with graphic design?', '5', 'text', ''), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""No""<No>', 'radio', '""No""<No>'), ('mobile phone number', '481837086', 'text', '481837086'), ('how many years of work experience do you have with cascading style sheets (css)?', '8', 'text', '8'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('how many years of work experience do you have with front-end development?', '4', 'text', '4')}",In Development
+4250385829,Frontend Developer,Mastech Digita,stech Digita,stech Digita,"About the job
+Title: Front End Developer 
+Duration: Redmond, WA – Onsite 
+Location: 9+ Months 
+ Must have skills:
+ReactJs
+ Responsibilities: 
+• Design and implement Mobile Web Apps and native apps for Communications and Services.
+• Partner with stakeholder engineering teams for cross-team projects
+• Drive web and app development best practices within the team
+professional front end, web or mobile software development using JavaScript, HTML and CSS experience
+front-end developer creating prototypes or wireframes for enterprise web applications or workflows experience
+• Experience developing with MVC/MVM frameworks (e.g., React.JS, AngularJS, Vue)
+ Nice-to-have skills / Preferred qualifications
+• Knowledge of web services technologies such as SOAP, HTTP, WSDL, XSD, and REST
+ • Experience in a broad range of software design approaches and common UX patterns",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Anshika Pasahan ,https://www.linkedin.com/in/anshika-pasahan-b31928183,Previous resume,False,Unknown,2025-06-28 20:01:02.225896,https://www.linkedin.com/jobs/view/4250385829,Easy Applied,"{('how many years of work experience do you have with angularjs?', '4', 'text', '4'), ('how many years of work experience do you have with react.js?', '3', 'text', '3'), ('mobile phone number', '481837086', 'text', '481837086'), ('Will you be comfortable working on W2? (NO C2C/C2H)  [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('how many years of work experience do you have with javascript?', '7', 'text', '7')}",In Development
+4256568983,Full-Stack Engineer,Uptoo,too,too,"About the job
+Uptool is looking for a Senior, Full-Stack Developer based in the SF Bay Area. In office 2+ days/week
+
+Company & Opportunity Description
+Seed-stage software startup with tier 1 investors on a mission to transform the $20T manufacturing industry
+Clean slate product, minimal legacy code, high-leverage technical decisions
+Fast pace, constantly shipping and iterating with users
+Applied AI challenges (GPT, vision, reasoning)
+Computational geometry challenges
+Great coworkers (founders with domain expertise and a track record, and other senior engineers)
+Small team means diverse tasks offering many learning opportunities
+
+Qualifications
+Early-stage SAAS startup experience, responsible for developing critical, customer-facing product features.
+5+ years of building modern full-stack web applications including backend (API design, databases, security) and frontend (TS, React/Vue, SPA)
+Experience with cloud/infrastructure (scaling, reliability, troubleshooting) and being the on-call first responder.
+Love for modern development practices (dev tooling, CI/CD, IaC, etc).
+Experience with a multitude of languages, paradigms, frameworks. Desire and ability to quickly learn more.
+Comfortable shaping the product in collaboration with adjacent roles (product, design/UX).
+Strong sense of ownership, including troubleshooting production, talking to customers, etc.",5,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 20:01:15.728452,https://www.linkedin.com/jobs/view/4256568983,Easy Applied,"{('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""No""<No>', 'radio', '""No""<No>'), ('how many years of engineering experience do you currently have?', '4', 'text', '4'), ('Are you comfortable commuting to this job\'s location? [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None), ('mobile phone number', '481837086', 'text', '481837086'), ('Are you willing to undergo a background check, in accordance with local law/regulations? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Please confirm you are based in the SF Bay Area, are a US Citizen or Greencard holder, and have 5+ yrs experience developing web applications. [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4258486150,Web Developer,Covetu,vetu,vetu,"About the job
+Strong experience with Angular 16+, RxJS, Redux/NgRx and TypeScript
+• Experience with micro front-end architectural patterns
+• Hands on experience with: HTML5, JavaScript, Angular (or comparable framework), CSS, Bootstrap, Node Js, Web API, RESTful Services
+• Experience developing applications using Angular as primary frontend framework for UI
+• Experience working with product managers, UX/UI designers, and back-end developers to translate business requirements into technical solutions
+• Exposure to AWS/Azure cloud environment and proven understanding of CI/CD & DevOps
+• Solid grasp of how to use rapid development approaches bringing to bear enterprise capabilities to deliver robust business solutions
+• Extremely versatile and comfortable working alongside investment professionals as well as developing creative technical solutions
+• Experience decomposing sophisticated business problems into creative, efficient, and scalable solutions
+• Excellent active listening, verbal and written communication skills and brings excitement that builds collaboration and community
+• Ability to learn new technology, business workflows, concepts, processes and contribute to the investment process
+• Trusted technical partner that collaborates closely with end users to understand and respond to business needs",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Rahul Singh Chauhan ,https://www.linkedin.com/in/rahulrm2404,Previous resume,False,Unknown,2025-06-28 20:01:23.119441,https://www.linkedin.com/jobs/view/4258486150,Easy Applied,"{('how many years of work experience do you have on angular?', '5', 'text', ''), ('how many years of work experience do you have on typescript?', '5', 'text', ''), ('how many years of work experience do you have on as frontend developer?', '5', 'text', ''), ('mobile phone number', '481837086', 'text', '481837086'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4242903527,Javascript Developer,Brooksourc,ooksourc,ooksourc,"About the job
+Web/Mobile App Developer (React Native + Next.js)
+Location: Remote (Preferred: Atlanta, GA / EST hours)
+Contract Length: 6 Month Contract
+Start Date: End of June
+Our Digital Media client is looking for a Web/Mobile App Developer to support a key initiative to bring their mobile app development in-house. This role is a unique opportunity to work on highly visible consumer-facing products and help shape the future of their app platform. You’ll collaborate closely with internal UX teams and developers to transition an existing Progressive Web App (PWA) currently managed by a third party into a robust, internally owned experience using React Native with Expo and Next.js.
+You will be part of a nimble Agile team that values innovation, efficiency, and collaboration—especially as the organization evolves to do more with less, leveraging tools like GitHub Copilot and other AI-based accelerators.
+
+Key Responsibilities:
+Develop and maintain mobile and web applications using React Native (with Expo) and Next.js
+Collaborate with UX designers and business stakeholders to create intuitive, high-quality digital experiences
+Partner with other developers to build and refactor modular components across platforms
+Contribute to the planning and implementation of bringing a 3rd-party managed app in-house
+Write clean, maintainable code and participate in code reviews
+Use AWS for deployment and application scalability
+Leverage AI tools where appropriate to increase development efficiency
+Remain flexible and adaptive to shifting project demands and limited capacity
+
+Required Skills:
+Strong experience with React Native and Expo for mobile development
+Proficiency with Next.js and modern JavaScript/TypeScript frameworks
+Solid understanding of front-end technologies: HTML, CSS, JavaScript
+Experience working in cloud environments, particularly AWS
+Comfortable in Agile/Scrum environments with collaborative UX/development workflows
+Self-starter who can operate with autonomy and communicate clearly across teams
+
+Preferred Qualifications:
+Experience with Progressive Web Apps (PWA)
+Familiarity with AI-powered development tools (e.g., GitHub Copilot)
+Exposure to media, publishing, or content delivery platforms
+Experience working with small teams or start-up-style environments
+
+Why This Role:
+Work on a high-impact, year-end initiative to modernize and internalize mobile development
+Join a tight-knit, fast-moving team with cross-functional support from design and product
+Be part of a company-wide push to scale smarter using modern tools and workflows
+Potential for long-term opportunity depending on project success and budget",0,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Unknown,Unknown,Previous resume,False,Unknown,2025-06-28 20:01:32.509599,https://www.linkedin.com/jobs/view/4242903527,Easy Applied,"{('mobile phone number', '481837086', 'text', '481837086'), ('how many years of work experience do you have with react native?', '4', 'text', '4'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4257006381,Frontend Developer,The Planet Grou,e Planet Grou,e Planet Grou,"About the job
+Duration - 6 months to start - will extend/chances of conversion
+Location - remote - PST hours
+Looking for W2 candidates only
+Candidates can be based in USA or Canada
+
+TypeScript Developer 
+
+Looking for a Frontend Engineer to help support development against cookie consent systems & pipeline.
+
+You will contribute to the full development cycle, including technical design, development, testing, experimentation, analysis, and launch. You will be responsible for managing your task list pipeline as well as communicating your progress throughout the task life cycle. 
+
+Key Responsibilities:
+You will be aiding the development, maintenance, and support of our platform's frontend cookie consent features.
+Work with the team to develop, maintain and support assigned features of the frontend
+Collaborate with the team on future features and possible visual designs
+Maintain strong communication on progress as well as on question/concerns you foresee
+Manage designated tasks assigned on Jira
+Full pipeline and requirements on API interface between FE and BE will be provided, but it is expected that you will contribute heavily to design of FE implementation.
+ Qualifications:
+Minimum of 4+ years of software engineering experience, primarily focusing on developing user-facing web applications at scale using TypeScript
+Knowledge of GraphQL and HTTP basics
+Strong organizational skills with the ability to prioritize tasks and deliver projects on schedule
+Self-directed and thrive in fast-paced environments
+Excellent communication skills, both verbal and written, to effectively collaborate with remote teams and communicate complex technical topics to diverse audiences
+Experience developing or implementing consent-based frameworks (e.g., cookie consent banners, IAB TCF, Global Privacy Control, etc.).
+Familiarity with regulatory requirements and industry standards, such as GDPR, CCPA, ePrivacy Directive.
+
+Plus:
+Backend experience (service development, databases, Kubernetes) and the ability to design maintainable APIs is a plus",4,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Inshia Lakhia ,https://www.linkedin.com/in/inshialakhia,Previous resume,False,Unknown,2025-06-28 20:01:45.859813,https://www.linkedin.com/jobs/view/4257006381,Easy Applied,"{('Familiarity with regulatory requirements and industry standards, such as GDPR, CCPA, ePrivacy Directive [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Experience developing or implementing consent-based frameworks (e.g., cookie consent banners, IAB TCF, Global Privacy Control, etc.) [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""No""<No>', 'radio', '""No""<No>'), ('how many years of work experience do you have with california consumer privacy act (ccpa)?', '5', 'text', ''), ('mobile phone number', '481837086', 'text', '481837086'), ('how many years of work experience do you have with typescript?', '3', 'text', '3'), ('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Can you work on W2? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('how many years of work experience do you have with graphql?', '4', 'text', '4'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4256501369,Frontend Software Engineer,recruy,cruy,cruy,"About the job
+Our client is building next-gen logistics tech to modernize and optimize military sustainment — combining AI, intuitive design, and mission-critical engineering. Their flagship platform powers logistics operations for the U.S. military and its allies through rich, data-driven dashboards, maps, timelines, and 3D views.
+
+We're looking for a frontend engineer to own core parts of the UI stack and build tools used in the world’s most demanding environments.
+
+What you’ll do:
+– Build & own reusable React + TypeScript components for logistics visualization
+– Collaborate with designers & backend engineers on scalable UI/UX
+– Develop modern interfaces: maps, dashboards, timelines, 3D views
+– Contribute to technical design, API contracts, and field deployments
+– Work closely with end-users for feedback & improvement
+
+You should have:
+✔ 4+ years frontend experience (React, TypeScript, modern web stack)
+✔ Experience shipping production-grade apps
+✔ Comfort working cross-functionally across product & design
+✔ High ownership, strong communication, and a bias to build
+✔ U.S. Citizenship
+
+Nice to have:
+– Experience with mapping libraries (Mapbox, Leaflet, Cesium)
+– Background in 3D rendering (Three.js)
+– Protocol Buffers, or similar API contracts
+– Exposure to logistics, defense, or high-stakes operational tech",4,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Hannah de Villiers ,https://www.linkedin.com/in/hannahdev777,Previous resume,False,Unknown,2025-06-28 20:01:57.756440,https://www.linkedin.com/jobs/view/4256501369,Easy Applied,"{('Are you comfortable commuting to this job\'s location? [  ""Yes""<Yes>, ""No""<No>, ]', 'Yes', 'radio', None), ('how many years of work experience do you have with typescript?', '3', 'text', '3'), ('mobile phone number', '481837086', 'text', '481837086'), ('For security protocols, this position requires US Citizenship. Are you a US citizen? [  ""Select an option"", ""Yes"", ""No"", ]', 'Yes', 'select', 'Select an option'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4258530245,Full-stack Software Engineer,Harnha,rnha,rnha,"About the job
+Title: Full-Stack Software Engineer (Edge Computing / IoT)
+Location/Schedule: 100% Remote (U.S. only)
+
+Company/Role Overview:
+Our client is a 25-person startup building hardware embedded with computer vision technology to power safety and utility applications across high-stakes industries. We're looking for a Full-Stack Software Engineer to help build the software layer that connects intelligent hardware to the end user — from user interfaces to backend services and edge-deployed logic.
+This is a high-impact role where you’ll own projects from the ground up and collaborate closely with a small, cross-functional team of hardware engineers, AI/ML researchers, and product leads.
+
+Responsibilities:
+Own full-stack development for core product features, spanning edge-deployed software, backend services, and front-end interfaces
+Design clean, efficient APIs for communication between embedded devices and cloud infrastructure
+Build responsive, intuitive front-end experiences using modern frameworks
+Maintain and evolve CI/CD pipelines to support rapid iteration and reliable deployments
+Contribute to edge computing architecture and support orchestration of deployments via Docker/Kubernetes
+Collaborate with product, hardware, and ML teams to bring new ideas to life and ensure a seamless user experience
+
+Qualifications:
+4+ years of full-stack software engineering experience
+Strong proficiency in Vue.js, React, Typescript, Node.js, Python, and HTML/CSS
+Experience with UX/UI development and crafting user-centric interfaces
+Background in edge computing, IoT systems, or robotics
+Demonstrated ability to own and deliver projects end-to-end, ideally in a startup or lean team environment
+Familiarity with CI/CD best practices and tools
+Experience with Docker, Kubernetes, and managing distributed deployments is a significant plus
+Solid API design and security practices
+
+Current Tech Stack:
+Frontend: Vue.js, Typescript, HTML/CSS
+Backend/Edge: Python
+DevOps: Docker, Kubernetes (plus various orchestration tools)",4,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Gabriella Varela ,https://www.linkedin.com/in/gabriella-varela42,Previous resume,False,Unknown,2025-06-28 20:02:10.940619,https://www.linkedin.com/jobs/view/4258530245,Easy Applied,"{('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""No""<No>', 'radio', '""No""<No>'), ('how many years of work experience do you have with python (programming language)?', '2', 'text', '2'), ('how many years of work experience do you have with typescript?', '3', 'text', '3'), ('mobile phone number', '481837086', 'text', '481837086'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4255560606,Full Stack developer,Pacer Staffin,cer Staffin,cer Staffin,"About the job
+Position: Sr. Full Stack developer
+Location: New York City, NY
+
+Looking for local to work onsite, looking for independent candidate, No 3rd Party
+
+5+ years’ experience developing web, software, and mobile applications.
+Strong experience with the following: JavaScript, React.
+Some experience with back-end web frameworks in Java, Python or JavaScript",5,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Satpreet S. ,https://www.linkedin.com/in/satpreet-s-a48aa2157,Previous resume,False,Unknown,2025-06-28 20:02:54.912932,https://www.linkedin.com/jobs/view/4255560606,Easy Applied,"{('mobile phone number', '481837086', 'text', '481837086'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4255248277,Full Stack Engineer,Stealth Startu,ealth Startu,ealth Startu,"About the job
+We're a fast-growing, venture-backed fintech startup helping business owners grow their wealth through smarter tax strategies and modern investment tools. With thousands of paying customers and strong revenue growth, we’re expanding our engineering team to help scale the next generation of financial planning technology.
+
+What You’ll Work On:
+End-to-end development across our Python/Django backend and Next.js/Nest.js frontend
+New features across investing, tax filing, and financial planning experiences
+Building secure, scalable systems that support a growing user base
+Working closely with founders and product on high-impact initiatives
+
+You Might Be a Fit If You:
+Have 3+ years of fullstack development experience
+Are fluent in TypeScript and Python
+Enjoy working in fast-paced, early-stage environments
+Take ownership and care deeply about building great products
+Have fintech or startup experience
+
+Compensation:
+$150k – 190k base
+Meaningful early stage equity
+Unlimited PTO
+Benefits - health, dental, vision
+
+We’re a small, ambitious team based in Brooklyn with a beautiful office. If you’re excited to build meaningful tools that empower entrepreneurs and self-employed individuals, we’d love to meet you.",3,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Sam Plasman ,https://www.linkedin.com/in/samplasman,Previous resume,False,Unknown,2025-06-28 20:03:09.873417,https://www.linkedin.com/jobs/view/4255248277,Easy Applied,"{('how many years of work experience do you have with next.js?', '2', 'text', '2'), ('how many years of work experience do you have with python (programming language)?', '2', 'text', '2'), ('how many years of work experience do you have with typescript?', '3', 'text', '3'), ('mobile phone number', '481837086', 'text', '481837086'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development
+4255191897,Full Stack Engineer - Go / React,Open Selec,en Selec,en Selec,"About the job
+Location: Remote (East Coast time zones preferred)
+Salary: $150k-$160k / Visa sponsorship NOT available
+Industry: Logistics / AI
+
+What You’ll Drive
+Join a remote-first, 11-person team led by founders with backgrounds at Y Combinator, Harvard, and high-growth mobility startups. Backed by $11M+ in seed funding from American Express Ventures, Propel Venture Partners, and Felicis Ventures, you’ll help build an AI-powered assistant transforming logistics operations for major freight brokers and forwarders. Architect core backend systems, design integrations with industry tools, and deliver user-facing features that automate email, task management, and workflow across the entire load lifecycle.
+
+What You’ll Focus On
+Build and scale backend infrastructure and integrations with customer tools
+Develop APIs, third-party connections, and onboarding flows
+Ship features across the stack (Go, React, Postgres, AWS) in close collaboration with founders
+
+Who You Are
+2 years+ full-stack engineering experience, ideally at early-stage (Seed–Series B) startups
+Comfortable across Go, React, Postgres, AWS; strong product sense and user-facing feature experience
+Built APIs/systems for third-party integrations; familiar with observability tools
+Collaborative, mission-driven, and eager to shape the future of logistics
+
+Tech Stack
+Go, React, Postgres, AWS
+
+Why You’ll Thrive Here
+$11M+ in funding from American Express Ventures, Propel Venture Partners, and Felicis Ventures
+Led by experienced founders with deep expertise in mobility, data science, and AI
+High ownership and direct product impact in a small, passionate team
+Build automation for a massive, essential industry and work with leading freight brokers
+Rapid iteration, collaborative culture, and remote-first flexibility (East Coast hours)",2,"{'error': ""DeepSeek API error: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****_KEY is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}""}",Matt Geppert ,https://www.linkedin.com/in/mattgeppert,Previous resume,False,Unknown,2025-06-28 20:03:18.708237,https://www.linkedin.com/jobs/view/4255191897,Easy Applied,"{('Are you comfortable working in a remote setting? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Will you now, or in the future, require sponsorship for employment visa status (e.g. H-1B visa status)? [  ""Yes""<Yes>, ""No""<No>, ]', '""No""<No>', 'radio', '""No""<No>'), ('how many years of work experience do you have with product engineering?', '5', 'text', ''), ('mobile phone number', '481837086', 'text', '481837086'), ('how many years of work experience do you have with early-stage startups?', '5', 'text', ''), ('Are you legally authorized to work in the United States? [  ""Yes""<Yes>, ""No""<No>, ]', '""Yes""<Yes>', 'radio', '""Yes""<Yes>'), ('Phone country code [ ""List of phone country codes"" ]', 'Yes', 'select', 'Australia (+61)'), ('Email address [  ""Select an option"", ""achaulagain123@gmail.com"", ]', 'Yes', 'select', 'achaulagain123@gmail.com')}",In Development

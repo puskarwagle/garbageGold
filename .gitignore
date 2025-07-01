@@ -14,21 +14,20 @@ venv/
 .idea/
 
 # Logs, debug, screenshots
-logs/
-logs/*
+logs/log.txt
 
 # Generated or intermediate files
-*.csv
-*.pdf
+#*.csv
+#*.pdf
 
 # Backups or temp configs
-config/backup/
-config/personals.py
-config/secrets.py
+#config/backup/
+#config/personals.py
+#config/secrets.py
 
 # Resumes & raw data
-all resumes/
-all excels/
+#all resumes/
+#all excels/
 
 # Setup junk (temp staging?)
 setup/
