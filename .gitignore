@@ -1,0 +1,39 @@
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE/Editor configs
+.vscode/
+.idea/
+
+# Logs, debug, screenshots
+logs/
+logs/*
+
+# Generated or intermediate files
+*.csv
+*.pdf
+
+# Backups or temp configs
+config/backup/
+config/personals.py
+config/secrets.py
+
+# Resumes & raw data
+all resumes/
+all excels/
+
+# Setup junk (temp staging?)
+setup/
+
+# Node/Vite/JS build cache if added later
+node_modules/
+dist/
+build/
