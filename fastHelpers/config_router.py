@@ -1,5 +1,6 @@
 # fastHelpers/config_router.py
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
+from fastHelpers.auth import auth_manager
 from pydantic import BaseModel
 from typing import Optional, Dict, Any, List, Union
 from .config_updater import ConfigUpdater
@@ -113,7 +114,11 @@ class SettingsData(BaseModel):
 config_updater = ConfigUpdater()
 
 # Create router
-router = APIRouter(prefix="/api", tags=["config"])
+router = APIRouter(
+    prefix="/api",
+    tags=["config"],
+    dependencies=[Depends(auth_manager.require_auth())]  # 🔒 all routes locked
+)
 
 # Generic helper functions
 async def handle_config_update(config_type: str, data: Dict[str, Any]):
