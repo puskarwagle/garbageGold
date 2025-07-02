@@ -15,6 +15,7 @@ venv/
 
 # Logs, debug, screenshots
 logs/log.txt
+deprecated/
 
 # Generated or intermediate files
 #*.csv

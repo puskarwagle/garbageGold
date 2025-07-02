@@ -6,6 +6,7 @@ import time
 from collections import defaultdict
 from typing import Dict
 import os
+from fastHelpers.auth import auth_manager
 
 
 class SecurityManager:
@@ -36,6 +37,25 @@ class SecurityManager:
 
         return await call_next(request)
 
+    async def auth_middleware(self, request: Request, call_next):
+        """Global auth enforcement using Laravel token"""
+        auth_header = request.headers.get("Authorization")
+
+        if not auth_header:
+            return JSONResponse({"error": "Missing authorization"}, status_code=401)
+
+        scheme, _, token = auth_header.partition(" ")
+        if scheme.lower() != "bearer" or not token:
+            return JSONResponse({"error": "Invalid auth header format"}, status_code=401)
+
+        try:
+            # You can verify directly
+            await auth_manager.verify_laravel_token()
+        except HTTPException as e:
+            return JSONResponse({"error": e.detail}, status_code=e.status_code)
+
+        return await call_next(request)
+    
     async def security_headers_middleware(self, request: Request, call_next):
         """Add security headers"""
         response = await call_next(request)
@@ -51,16 +71,16 @@ class SecurityManager:
 
 
 def get_cors_middleware():
-    """CORS configuration"""
     allowed_origins = os.getenv("ALLOWED_ORIGINS", "http://localhost:8000").split(",")
 
-    return CORSMiddleware(
-        allow_origins=allowed_origins,
-        allow_credentials=True,
-        allow_methods=["GET", "POST", "PUT", "DELETE"],
-        allow_headers=["Authorization", "Content-Type", "X-Requested-With"],
-        max_age=600,  # Cache preflight for 10 minutes
-    )
+    # Return the CORSMiddleware class itself, *plus* the config as a dict.
+    return CORSMiddleware, {
+        "allow_origins": allowed_origins,
+        "allow_credentials": True,
+        "allow_methods": ["GET", "POST", "PUT", "DELETE"],
+        "allow_headers": ["Authorization", "Content-Type", "X-Requested-With"],
+        "max_age": 600,
+    }
 
 
 # Global security instance

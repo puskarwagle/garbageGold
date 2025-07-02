@@ -10,7 +10,7 @@ from fastHelpers.config_updater import ConfigUpdater
 router = APIRouter(
     prefix="/api",
     tags=["config"],
-    dependencies=[Depends(auth_manager.require_auth())]
+    dependencies=[Depends(auth_manager.verify_laravel_token)]
 )
 
 # Shared config handlers used by all sub-routers
