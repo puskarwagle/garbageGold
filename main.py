@@ -1,9 +1,12 @@
 # main.py - Modular FastAPI Application (NO SECURITY)
-from fastapi import FastAPI, WebSocket
+from fastapi import FastAPI, WebSocket, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 import sys
 import os
+import subprocess
+import asyncio
+from pathlib import Path
 
 # Add fastHelpers to path
 sys.path.append(os.path.join(os.path.dirname(__file__), 'fastHelpers'))
@@ -56,8 +59,74 @@ async def root():
             "/api/update-settings",
             "/api/get-settings"
         ],
+        "script_endpoints": [
+            "/api/run-bot",
+            "/api/stop-bot",
+            "/api/bot-status"
+        ],
         "security": "DISABLED"
     }
+
+# Global process tracker
+bot_process = None
+
+@app.post("/api/run-bot")
+async def run_bot():
+    global bot_process
+    
+    try:
+        # Check if bot is already running
+        if bot_process and bot_process.poll() is None:
+            return {"status": "error", "message": "Bot is already running"}
+        
+        # Get script path
+        script_path = Path(__file__).parent / "runAiBot.py"
+        if not script_path.exists():
+            raise HTTPException(status_code=404, detail="runAiBot.py not found")
+        
+        # Start the bot process
+        bot_process = subprocess.Popen([
+            "python3.13", str(script_path)
+        ], cwd=str(script_path.parent))
+        
+        return {
+            "status": "success", 
+            "message": "Bot started successfully",
+            "pid": bot_process.pid
+        }
+        
+    except Exception as e:
+        return {"status": "error", "message": f"Failed to start bot: {str(e)}"}
+
+@app.post("/api/stop-bot")
+async def stop_bot():
+    global bot_process
+    
+    try:
+        if bot_process and bot_process.poll() is None:
+            bot_process.terminate()
+            bot_process.wait(timeout=10)  # Wait up to 10 seconds
+            return {"status": "success", "message": "Bot stopped successfully"}
+        else:
+            return {"status": "error", "message": "Bot is not running"}
+    except Exception as e:
+        return {"status": "error", "message": f"Failed to stop bot: {str(e)}"}
+
+@app.get("/api/bot-status")
+async def bot_status():
+    global bot_process
+    
+    if bot_process and bot_process.poll() is None:
+        return {
+            "status": "running",
+            "pid": bot_process.pid,
+            "message": "Bot is currently running"
+        }
+    else:
+        return {
+            "status": "stopped",
+            "message": "Bot is not running"
+        }
 
 @app.get("/health")
 async def health_check():
