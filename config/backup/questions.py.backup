@@ -21,4 +21,3 @@ confidence_level = ""
 pause_before_submit = True
 pause_at_failed_question = True
 overwrite_previous_answers = True
-    

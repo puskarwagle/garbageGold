@@ -1,5 +1,5 @@
 default_resume_path = ""
-years_of_experience = ""
+years_of_experience = "55"
 require_visa = ""
 website = ""
 linkedIn = ""
@@ -18,6 +18,6 @@ confidence_level = ""
 
 # >>>>>>>>>>> RELATED SETTINGS <<<<<<<<<<<
 
-pause_before_submit = True
-pause_at_failed_question = True
-overwrite_previous_answers = True
+pause_before_submit = False
+pause_at_failed_question = False
+overwrite_previous_answers = False

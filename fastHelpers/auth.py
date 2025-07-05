@@ -7,7 +7,6 @@ from typing import Optional
 
 security = HTTPBearer(auto_error=False)
 
-
 class AuthManager:
     def __init__(self):
         self.laravel_base_url = os.getenv("LARAVEL_BASE_URL", "http://localhost:8000")
