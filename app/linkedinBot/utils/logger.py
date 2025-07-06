@@ -6,7 +6,7 @@ from typing import Union
 from pprint import pprint
 import traceback
 
-LOG_FILE_PATH = os.path.abspath("app/linkedBot/logs/log.txt")
+LOG_FILE_PATH = os.path.abspath("logs/log.txt")
 
 def ensure_log_dir_exists():
     os.makedirs(os.path.dirname(LOG_FILE_PATH), exist_ok=True)

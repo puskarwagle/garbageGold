@@ -1,0 +1,37 @@
+[2025-07-06 23:25:13] 📁 Directory already exists: all excels
+[2025-07-06 23:25:13] 📁 Directory already exists: all excels
+[2025-07-06 23:25:13] 📁 Directory already exists: logs/screenshots
+[2025-07-06 23:25:13] 📁 Directory already exists: all resumes/default
+[2025-07-06 23:25:13] 📁 Directory already exists: all resumes/temp
+[2025-07-06 23:25:13] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-06 23:25:13] SAFE MODE: Using guest profile, no history saved!
+[2025-07-06 23:25:34] Critical error in main:
+[2025-07-06 23:25:34] [ERROR] name 'is_logged_in_LN' is not defined: In main
+Traceback (most recent call last):
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 757, in linkedinMain
+    applier.initialize_browser()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 253, in initialize_browser
+    if not is_logged_in_LN():
+           ^^^^^^^^^^^^^^^
+NameError: name 'is_logged_in_LN' is not defined
+
+[2025-07-06 23:26:18] 
+============================================================
+[2025-07-06 23:26:18] FINAL STATISTICS
+[2025-07-06 23:26:18] ============================================================
+[2025-07-06 23:26:18] Total runs:                     1
+[2025-07-06 23:26:18] Jobs Easy Applied:              0
+[2025-07-06 23:26:18] External job links collected:   0
+[2025-07-06 23:26:18]                               ----------
+[2025-07-06 23:26:18] Total applied or collected:     0
+[2025-07-06 23:26:18] 
+Failed jobs:                    0
+[2025-07-06 23:26:18] Irrelevant jobs skipped:        0
+[2025-07-06 23:26:18] 
+Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
+[2025-07-06 23:26:25] Browser closed successfully

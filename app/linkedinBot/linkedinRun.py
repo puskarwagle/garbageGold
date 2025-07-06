@@ -37,6 +37,7 @@ from browser.clickers_and_finders import *
 from utils.validator import validate_config
 from ai.openaiConnections import ai_create_openai_client, ai_extract_skills, ai_answer_question, ai_close_openai_client
 from ai.deepseekConnections import deepseek_create_client, deepseek_extract_skills, deepseek_answer_question
+from auth.session import is_logged_in_LN
 
 
 class ApplicationResult(Enum):

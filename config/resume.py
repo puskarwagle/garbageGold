@@ -1,56 +1,22 @@
+'''
+Author:     Sai Vignesh Golla
+LinkedIn:   https://www.linkedin.com/in/saivigneshgolla/
 
+Copyright (C) 2024 Sai Vignesh Golla
 
-# from personals import *
-# import json
+License:    GNU Affero General Public License
+            https://www.gnu.org/licenses/agpl-3.0.en.html
+            
+GitHub:     https://github.com/GodsScion/Auto_job_applier_linkedIn
 
-###################################################### CONFIGURE YOUR RESUME HERE ######################################################
+version:    24.12.29.12.30
+'''
 
 from personals import *
 import json
-from pathlib import Path
 
 ###################################################### CONFIGURE YOUR RESUME HERE ######################################################
 
-# You don't need to edit this file if you've already added your default resume.
-default_resume_path = Path("all resumes/default/resume.pdf")
-
-if not default_resume_path.exists():
-    print("[⚠️] Resume not found at:", default_resume_path)
-    print("[ℹ️] Will fallback to previously uploaded resume on LinkedIn.")
-else:
-    print("[✅] Resume loaded:", default_resume_path)
-
-# Prepare resume metadata in JSON-like format
-resume_headline = {
-    "full_name": f"{first_name} {last_name}",
-    "email": email,
-    "phone": phone,
-    "location": location,
-    "headline": linkedin_headline,
-    "summary": linkedin_summary.strip(),
-    "linkedin": linkedIn,
-    "portfolio": website,
-    "current_title": title,
-    "years_of_experience": years_of_experience,
-    "confidence_score": confidence_level,
-    "current_employer": recent_employer,
-    "notice_period_days": notice_period,
-    "citizenship_status": us_citizenship,
-    "expected_ctc": desired_salary,
-    "current_ctc": current_ctc,
-    "cover_letter": cover_letter.strip(),
-    "user_bio": user_information_all.strip(),
-}
-
-# Optional: export to a .json file (e.g., for AI prompt use)
-def export_resume_json(path="resume_metadata.json"):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(resume_headline, f, indent=4)
-    print(f"[📤] Resume metadata exported to {path}")
-
-# Call export if needed
-if __name__ == "__main__":
-    export_resume_json()
 
 # # Give an relative path of your default resume to be uploaded. If file in not found, will continue using your previously uploaded resume in LinkedIn.
 # default_resume_path = "all resumes/default/resume.pdf"      # (In Development)
@@ -98,3 +64,21 @@ YOU DON'T HAVE TO EDIT THIS FILE, IF YOU ADDED YOUR DEFAULT RESUME.
 
 
 
+
+
+############################################################################################################
+'''
+THANK YOU for using my tool 😊! Wishing you the best in your job hunt 🙌🏻!
+
+Sharing is caring! If you found this tool helpful, please share it with your peers 🥺. Your support keeps this project alive.
+
+Support my work on <PATREON_LINK>. Together, we can help more job seekers.
+
+As an independent developer, I pour my heart and soul into creating tools like this, driven by the genuine desire to make a positive impact.
+
+Your support, whether through donations big or small or simply spreading the word, means the world to me and helps keep this project alive and thriving.
+
+Gratefully yours 🙏🏻,
+Sai Vignesh Golla
+'''
+############################################################################################################
