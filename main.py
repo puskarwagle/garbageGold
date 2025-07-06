@@ -79,10 +79,10 @@ async def run_bot():
         if bot_process and bot_process.poll() is None:
             return {"status": "error", "message": "Bot is already running"}
         
-        # Get script path
-        script_path = Path(__file__).parent / "runAiBot.py"
+        # Updated path to modular script
+        script_path = Path(__file__).parent / "app" / "linkedinBot" / "linkedinRun.py"
         if not script_path.exists():
-            raise HTTPException(status_code=404, detail="runAiBot.py not found")
+            raise HTTPException(status_code=404, detail="linkedinRun.py not found")
         
         # Start the bot process
         bot_process = subprocess.Popen([

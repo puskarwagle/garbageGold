@@ -1,0 +1,11 @@
+def is_logged_in_LN() -> bool:
+    '''
+    Function to check if user is logged-in in LinkedIn
+    * Returns: `True` if user is logged-in or `False` if not
+    '''
+    if driver.current_url == "https://www.linkedin.com/feed/": return True
+    if try_linkText(driver, "Sign in"): return False
+    if try_xp(driver, '//button[@type="submit" and contains(text(), "Sign in")]'):  return False
+    if try_linkText(driver, "Join now"): return False
+    print_lg("Didn't find Sign in link, so assuming user is logged in!")
+    return True
