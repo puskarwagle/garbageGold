@@ -14,7 +14,7 @@ generated_resume_path = "fasdfsf"
 # >>>>>>>>>>> Global Settings <<<<<<<<<
 file_name = ""
 failed_file_name = ""
-logs_folder_path = ""
+logs_folder_path = "log.txt"
 click_gap = "None"
 run_in_background = False
 disable_extensions = True

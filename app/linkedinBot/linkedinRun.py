@@ -7,6 +7,7 @@ from typing import Set, List, Optional, Tuple, Dict, Any
 from datetime import datetime
 from random import choice, shuffle, randint
 from enum import Enum
+from utils.logger import log, log_error
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
@@ -130,13 +131,13 @@ class AIConfig:
         if not self.enabled:
             return
         
-        print_lg(f"Initializing AI client for {self.provider}...")
+        log(f"Initializing AI client for {self.provider}...")
         if self.provider.lower() == "openai":
             self.client = ai_create_openai_client()
         elif self.provider.lower() == "deepseek":
             self.client = deepseek_create_client()
         else:
-            print_lg(f"Unknown AI provider: {self.provider}")
+            log(f"Unknown AI provider: {self.provider}")
             self.client = None
     
     def extract_skills(self, description: str) -> str:
@@ -150,16 +151,16 @@ class AIConfig:
                 return deepseek_extract_skills(self.client, description)
             return "Unsupported AI provider"
         except Exception as e:
-            print_lg("Failed to extract skills:", e)
+            log("Failed to extract skills:", e)
             return "Error extracting skills"
     
     def close_client(self):
         if self.client:
             try:
                 ai_close_openai_client(self.client)
-                print_lg(f"Closed {self.provider} AI client.")
+                log(f"Closed {self.provider} AI client.")
             except Exception as e:
-                print_lg("Failed to close AI client:", e)
+                log("Failed to close AI client:", e)
 
 
 @dataclass
@@ -282,7 +283,7 @@ class JobApplier:
             
             # Check if already applied
             if job_id in self.applied_jobs or find_by_class(self.driver, "jobs-s-apply__application-link", 2):
-                print_lg(f'Already applied to "{title} | {company}" job. Job ID: {job_id}!')
+                log(f'Already applied to "{title} | {company}" job. Job ID: {job_id}!')
                 return None, True
             
             job_details = JobDetails(
@@ -296,7 +297,7 @@ class JobApplier:
             return job_details, False
             
         except Exception as e:
-            print_lg("Failed to extract job basic info:", e)
+            log("Failed to extract job basic info:", e)
             return None, True
     
     def enrich_job_details(self, job_details: JobDetails) -> Tuple[JobDetails, bool]:
@@ -316,7 +317,7 @@ class JobApplier:
             # Get job description
             description, experience_required, skip, reason, message = get_job_description()
             if skip:
-                print_lg(message)
+                log(message)
                 failed_job(job_details.job_id, job_details.job_link, "Pending", 
                           job_details.date_listed, reason, message, "Skipped", "Not Available")
                 self.rejected_jobs.add(job_details.job_id)
@@ -329,18 +330,18 @@ class JobApplier:
             # Extract skills using AI
             if self.ai_config.enabled and description != "Unknown":
                 job_details.skills = self.ai_config.extract_skills(description)
-                print_lg(f"Extracted skills using {self.ai_config.provider} AI")
+                log(f"Extracted skills using {self.ai_config.provider} AI")
             
             return job_details, False
             
         except ValueError as e:
-            print_lg(e, 'Skipping this job!')
+            log(e, 'Skipping this job!')
             failed_job(job_details.job_id, job_details.job_link, "Pending", 
                       job_details.date_listed, "Found Blacklisted words", str(e), "Skipped", "Not Available")
             self.stats.increment_skipped()
             return job_details, True
         except Exception as e:
-            print_lg("Failed to enrich job details:", e)
+            log("Failed to enrich job details:", e)
             return job_details, True
     
     def _extract_hr_info(self, job_details: JobDetails):
@@ -352,7 +353,7 @@ class JobApplier:
             job_details.hr_link = hr_info_card.find_element(By.TAG_NAME, "a").get_attribute("href")
             job_details.hr_name = hr_info_card.find_element(By.TAG_NAME, "span").text
         except Exception as e:
-            print_lg(f'HR info not available for "{job_details.title}" (ID: {job_details.job_id})')
+            log(f'HR info not available for "{job_details.title}" (ID: {job_details.job_id})')
     
     def _extract_posting_date(self, job_details: JobDetails, jobs_top_card):
         """Extract and calculate job posting date"""
@@ -368,7 +369,7 @@ class JobApplier:
             
             job_details.date_listed = calculate_date_posted(time_posted_text)
         except Exception as e:
-            print_lg("Failed to calculate posting date:", e)
+            log("Failed to calculate posting date:", e)
     
     def apply_to_job(self, job_details: JobDetails) -> ApplicationResult:
         """Apply to a single job"""
@@ -379,7 +380,7 @@ class JobApplier:
             else:
                 return self._external_apply(job_details)
         except Exception as e:
-            print_lg("Failed to apply to job:", e)
+            log("Failed to apply to job:", e)
             self.stats.increment_failed()
             return ApplicationResult.FAILED
     
@@ -436,7 +437,7 @@ class JobApplier:
                 return ApplicationResult.FAILED
                 
         except Exception as e:
-            print_lg("Easy Apply failed:", e)
+            log("Easy Apply failed:", e)
             self.stats.increment_failed()
             discard_job()
             return ApplicationResult.FAILED
@@ -450,7 +451,7 @@ class JobApplier:
             )
             
             if self.app_config.daily_limit_reached:
-                print_lg("Daily application limit reached!")
+                log("Daily application limit reached!")
                 return ApplicationResult.FAILED
             
             if skip:
@@ -460,7 +461,7 @@ class JobApplier:
             return ApplicationResult.EXTERNAL
             
         except Exception as e:
-            print_lg("External apply failed:", e)
+            log("External apply failed:", e)
             self.stats.increment_failed()
             return ApplicationResult.FAILED
     
@@ -496,7 +497,7 @@ class JobApplier:
             return False
             
         except Exception as e:
-            print_lg("Submission failed:", e)
+            log("Submission failed:", e)
             return False
     
     def _handle_manual_intervention(self, job_id: str):
@@ -513,7 +514,7 @@ class JobApplier:
     def process_search_term(self, search_term: str) -> int:
         """Process jobs for a specific search term"""
         self.driver.get(f"https://www.linkedin.com/jobs/search/?keywords={search_term}")
-        print_lg(f'\n>>>> Now searching for "{search_term}" <<<<\n')
+        log(f'\n>>>> Now searching for "{search_term}" <<<<\n')
         
         apply_filters()
         
@@ -536,7 +537,7 @@ class JobApplier:
                     if current_count >= switch_number:
                         break
                     
-                    print_lg("\n-@-\n")
+                    log("\n-@-\n")
                     
                     # Get basic job info
                     job_details, skip = self.get_job_basic_info(job_element)
@@ -555,7 +556,7 @@ class JobApplier:
                         self._save_successful_application(job_details)
                         self.applied_jobs.add(job_details.job_id)
                         current_count += 1
-                        print_lg(f'Successfully applied to "{job_details.title} | {job_details.company}"')
+                        log(f'Successfully applied to "{job_details.title} | {job_details.company}"')
                     elif result == ApplicationResult.EXTERNAL:
                         current_count += 1
                 
@@ -564,8 +565,8 @@ class JobApplier:
                     break
                     
         except Exception as e:
-            print_lg("Failed to process search term:", e)
-            critical_error_log("In process_search_term", e)
+            log("Failed to process search term:", e)
+            log_error("In process_search_term", e)
         
         return current_count
     
@@ -595,7 +596,7 @@ class JobApplier:
     def _navigate_to_next_page(self, pagination_element, current_page: int) -> bool:
         """Navigate to next page of results"""
         if pagination_element is None:
-            print_lg("No pagination element found - probably at end of results")
+            log("No pagination element found - probably at end of results")
             return False
         
         try:
@@ -603,10 +604,10 @@ class JobApplier:
                 By.XPATH, f"//button[@aria-label='Page {current_page + 1}']"
             )
             next_page_button.click()
-            print_lg(f"\n>-> Now on Page {current_page + 1}\n")
+            log(f"\n>-> Now on Page {current_page + 1}\n")
             return True
         except NoSuchElementException:
-            print_lg(f"Page {current_page + 1} not found - probably at end of results")
+            log(f"Page {current_page + 1} not found - probably at end of results")
             return False
     
     def run_application_cycle(self, search_terms: List[str]) -> int:
@@ -623,7 +624,7 @@ class JobApplier:
             processed = self.process_search_term(search_term)
             total_processed += processed
             
-            print_lg(f"Processed {processed} jobs for search term: {search_term}")
+            log(f"Processed {processed} jobs for search term: {search_term}")
         
         return total_processed
     
@@ -632,21 +633,21 @@ class JobApplier:
         total_runs = 1
         self.applied_jobs = get_applied_job_ids()
         
-        print_lg(f"Starting continuous run with {len(search_terms)} search terms")
+        log(f"Starting continuous run with {len(search_terms)} search terms")
         
         try:
             while True:
-                print_lg(f"\n{'='*100}")
-                print_lg(f"Cycle {total_runs} - {datetime.now()}")
-                print_lg(f"Looking for jobs posted within '{date_posted}' sorted by '{sort_by}'")
+                log(f"\n{'='*100}")
+                log(f"Cycle {total_runs} - {datetime.now()}")
+                log(f"Looking for jobs posted within '{date_posted}' sorted by '{sort_by}'")
                 
                 processed = self.run_application_cycle(search_terms)
                 
-                print_lg(f"Cycle {total_runs} completed - processed {processed} jobs")
-                print_lg(f"{'='*100}\n")
+                log(f"Cycle {total_runs} completed - processed {processed} jobs")
+                log(f"{'='*100}\n")
                 
                 if self.app_config.daily_limit_reached:
-                    print_lg("Daily limit reached - stopping")
+                    log("Daily limit reached - stopping")
                     break
                 
                 if not self.app_config.run_non_stop:
@@ -661,14 +662,14 @@ class JobApplier:
                 total_runs += 1
                 
                 # Sleep between cycles
-                print_lg("Sleeping for 10 minutes...")
+                log("Sleeping for 10 minutes...")
                 sleep(600)
                 
         except KeyboardInterrupt:
-            print_lg("Application stopped by user")
+            log("Application stopped by user")
         except Exception as e:
-            print_lg("Error in continuous run:", e)
-            critical_error_log("In run_continuous", e)
+            log("Error in continuous run:", e)
+            log_error("In run_continuous", e)
         
         return total_runs
     
@@ -690,19 +691,19 @@ class JobApplier:
     
     def print_final_stats(self, total_runs: int):
         """Print final application statistics"""
-        print_lg("\n" + "="*60)
-        print_lg("FINAL STATISTICS")
-        print_lg("="*60)
-        print_lg(f"Total runs:                     {total_runs}")
-        print_lg(f"Jobs Easy Applied:              {self.stats.easy_applied_count}")
-        print_lg(f"External job links collected:   {self.stats.external_jobs_count}")
-        print_lg(f"                              ----------")
-        print_lg(f"Total applied or collected:     {self.stats.total_applied}")
-        print_lg(f"\nFailed jobs:                    {self.stats.failed_count}")
-        print_lg(f"Irrelevant jobs skipped:        {self.stats.skip_count}")
+        log("\n" + "="*60)
+        log("FINAL STATISTICS")
+        log("="*60)
+        log(f"Total runs:                     {total_runs}")
+        log(f"Jobs Easy Applied:              {self.stats.easy_applied_count}")
+        log(f"External job links collected:   {self.stats.external_jobs_count}")
+        log(f"                              ----------")
+        log(f"Total applied or collected:     {self.stats.total_applied}")
+        log(f"\nFailed jobs:                    {self.stats.failed_count}")
+        log(f"Irrelevant jobs skipped:        {self.stats.skip_count}")
         
         if self.randomly_answered_questions:
-            print_lg(f"\nQuestions randomly answered:\n{'; '.join(self.randomly_answered_questions)}")
+            log(f"\nQuestions randomly answered:\n{'; '.join(self.randomly_answered_questions)}")
         
         # Inspirational quote
         quotes = [
@@ -723,7 +724,7 @@ class JobApplier:
         quote = choice(quotes)
         final_msg = f"\n{quote}\n\nBest regards,\nSai Vignesh Golla\nhttps://www.linkedin.com/in/saivigneshgolla/"
         
-        print_lg(final_msg)
+        log(final_msg)
         pyautogui.alert(final_msg, "Application Complete")
     
     def cleanup(self):
@@ -735,15 +736,15 @@ class JobApplier:
                 warning_msg = ("NOTE: You have 10+ tabs open. Please close or bookmark them!\n"
                              "Otherwise, the application might not work properly next time.")
                 pyautogui.alert(warning_msg, "Warning")
-                print_lg(warning_msg)
+                log(warning_msg)
             
             if self.driver:
                 self.driver.quit()
-                print_lg("Browser closed successfully")
+                log("Browser closed successfully")
                 
         except Exception as e:
-            print_lg("Error during cleanup:", e)
-            critical_error_log("During cleanup", e)
+            log("Error during cleanup:", e)
+            log_error("During cleanup", e)
 
 
 def linkedinMain():
@@ -761,10 +762,10 @@ def linkedinMain():
         total_runs = applier.run_continuous(search_terms)
         
     except NoSuchWindowException:
-        print_lg("Browser window closed")
+        log("Browser window closed")
     except Exception as e:
-        print_lg("Critical error in main:", e)
-        critical_error_log("In main", e)
+        log("Critical error in main:", e)
+        log_error("In main", e)
         pyautogui.alert(str(e), "Critical Error")
     finally:
         applier.print_final_stats(total_runs if 'total_runs' in locals() else 1)
