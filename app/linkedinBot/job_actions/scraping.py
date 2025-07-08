@@ -1,14 +1,29 @@
 # app/linkedinBot/job_actions/scraping.py
 
-from utils.logger import log, log_error
+from typing import Literal
 import csv
+
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webelement import WebElement
-from browser.clickers_and_finders import try_find_by_classes, scroll_to_view
-from utils.helpers import buffer
-from tracking.discard import discard_job
-from config.settings import file_name, click_gap
+
+from browser.clickers_and_finders import try_find_by_classes, scroll_to_view, find_by_class
 from browser.open_chrome import driver, wait
+
+from config.settings import (
+    file_name,
+    click_gap,
+    bad_words,
+    security_clearance,
+    did_masters,
+    current_experience
+)
+
+from utils.logger import log, log_error
+from utils.helpers import buffer
+from utils.experience import extract_years_of_experience
+
+from tracking.discard import discard_job
+
 
 def get_applied_job_ids() -> set:
     '''
@@ -87,3 +102,60 @@ def get_job_main_details(job: WebElement, blacklisted_companies: set, rejected_j
         job_details_button.click() # To pass the error outside
     buffer(click_gap)
     return (job_id,title,company,work_location,work_style,skip)
+
+def get_job_description(
+) -> tuple[
+    str | Literal['Unknown'],
+    int | Literal['Unknown'],
+    bool,
+    str | None,
+    str | None
+    ]:
+    '''
+    # Job Description
+    Function to extract job description from About the Job.
+    ### Returns:
+    - `jobDescription: str | 'Unknown'`
+    - `experience_required: int | 'Unknown'`
+    - `skip: bool`
+    - `skipReason: str | None`
+    - `skipMessage: str | None`
+    '''
+    try:
+        jobDescription = "Unknown"
+        ##<
+        experience_required = "Unknown"
+        found_masters = 0
+        jobDescription = find_by_class(driver, "jobs-box__html-content").text
+        jobDescriptionLow = jobDescription.lower()
+        skip = False
+        skipReason = None
+        skipMessage = None
+        for word in bad_words:
+            if word.lower() in jobDescriptionLow:
+                skipMessage = f'\n{jobDescription}\n\nContains bad word "{word}". Skipping this job!\n'
+                skipReason = "Found a Bad Word in About Job"
+                skip = True
+                break
+        if not skip and security_clearance == False and ('polygraph' in jobDescriptionLow or 'clearance' in jobDescriptionLow or 'secret' in jobDescriptionLow):
+            skipMessage = f'\n{jobDescription}\n\nFound "Clearance" or "Polygraph". Skipping this job!\n'
+            skipReason = "Asking for Security clearance"
+            skip = True
+        if not skip:
+            if did_masters and 'master' in jobDescriptionLow:
+                log(f'Found the word "master" in \n{jobDescription}')
+                found_masters = 2
+            experience_required = extract_years_of_experience(jobDescription)
+            if current_experience > -1 and experience_required > current_experience + found_masters:
+                skipMessage = f'\n{jobDescription}\n\nExperience required {experience_required} > Current Experience {current_experience + found_masters}. Skipping this job!\n'
+                skipReason = "Required experience is high"
+                skip = True
+    except Exception as e:
+        if jobDescription == "Unknown":    log_error("Unable to extract job description!")
+        else:
+            experience_required = "Error in extraction"
+            log_error("Unable to extract years of experience required!")
+            # print_lg(e)
+    finally:
+        return jobDescription, experience_required, skip, skipReason, skipMessage
+    

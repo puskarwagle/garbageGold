@@ -1,43 +1,88 @@
+# === Standard Library ===
 import os
+import sys
 import csv
 import re
 import pyautogui
+from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Set, List, Optional, Tuple, Dict, Any
 from datetime import datetime
-from random import choice, shuffle, randint
-from enum import Enum
-from utils.logger import log, log_error
+from random import choice, randint
+from enum import Enum  # If used
+sys.path.append(str(Path(__file__).resolve().parent.parent.parent))
 
+# === Selenium ===
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support.select import Select
 from selenium.webdriver.remote.webelement import WebElement
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait, Select
 from selenium.common.exceptions import (
-    NoSuchElementException, 
-    ElementClickInterceptedException, 
-    NoSuchWindowException, 
+    NoSuchElementException,
+    ElementClickInterceptedException,
+    NoSuchWindowException,
     ElementNotInteractableException
 )
 
-import sys
-from pathlib import Path
-sys.path.append(str(Path(__file__).resolve().parent.parent.parent))
+# === LinkedIn Bot Modules (Modularized by Wagle) ===
 
-# Import configurations and utilities
-from config.personals import *
+# -- Authentication --
+from app.linkedinBot.auth.login import login_LN
+
+# -- Job Actions --
+from app.linkedinBot.job_actions.apply import external_apply
+from app.linkedinBot.job_actions.follow import follow_company
+from app.linkedinBot.job_actions.questions import answer_questions
+from app.linkedinBot.job_actions.resume import upload_resume
+from app.linkedinBot.job_actions.scraping import (
+    get_applied_job_ids,
+    get_job_description,
+    get_job_main_details,
+    get_page_info
+)
+
+# -- Filters --
+from app.linkedinBot.job_filters.blacklist import check_blacklist
+from app.linkedinBot.job_filters.filters import apply_filters
+
+# -- Tracking --
+from app.linkedinBot.tracking.discard import discard_job
+from app.linkedinBot.tracking.failed import failed_job
+from app.linkedinBot.tracking.submitted import submitted_jobs
+
+# -- Utilities --
+from app.linkedinBot.utils import screenshot
+
+# === External Utilities ===
+from utils.logger import log, log_error
+from utils.helpers import *
+from utils.validator import validate_config
+from browser.open_chrome import launch_browser
+from browser.clickers_and_finders import *
+
+# === AI Modules ===
+from ai.openaiConnections import (
+    ai_create_openai_client,
+    ai_extract_skills,
+    ai_answer_question,
+    ai_close_openai_client
+)
+from ai.deepseekConnections import (
+    deepseek_create_client,
+    deepseek_extract_skills,
+    deepseek_answer_question
+)
+
+# === Configs ===
+from config.settings import *  # Only if necessary
+from config.secrets import use_AI, username, password, ai_provider
+from config.personals import *  # Consider being explicit to avoid namespace pollution
 from config.questions import *
 from config.search import *
-from config.secrets import use_AI, username, password, ai_provider
-from config.settings import *
-from browser.open_chrome import launch_browser
-from utils.helpers import *
-from browser.clickers_and_finders import *
-from utils.validator import validate_config
-from ai.openaiConnections import ai_create_openai_client, ai_extract_skills, ai_answer_question, ai_close_openai_client
-from ai.deepseekConnections import deepseek_create_client, deepseek_extract_skills, deepseek_answer_question
+
+# === Session Check ===
 from auth.session import is_logged_in_LN
+
 
 
 class ApplicationResult(Enum):

@@ -71,7 +71,8 @@ notice_period_weeks = str(notice_period//7)
 notice_period = str(notice_period)
 
 aiClient = None
-about_company_for_ai = None # TODO extract about company for AI
+about_company_for_ai = None 
+# todo extract about company for AI
 ##<
 
 #>
