@@ -1,3 +1,6 @@
+from utils.logger import log, log_error
+
+
 def is_logged_in_LN() -> bool:
     '''
     Function to check if user is logged-in in LinkedIn
@@ -7,5 +10,5 @@ def is_logged_in_LN() -> bool:
     if try_linkText(driver, "Sign in"): return False
     if try_xp(driver, '//button[@type="submit" and contains(text(), "Sign in")]'):  return False
     if try_linkText(driver, "Join now"): return False
-    print_lg("Didn't find Sign in link, so assuming user is logged in!")
+    log("Didn't find Sign in link, so assuming user is logged in!")
     return True

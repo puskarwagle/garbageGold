@@ -35,3 +35,109 @@ Best regards,
 Sai Vignesh Golla
 https://www.linkedin.com/in/saivigneshgolla/
 [2025-07-06 23:26:25] Browser closed successfully
+[2025-07-08 23:34:45] 📁 Directory already exists: all excels
+[2025-07-08 23:34:45] 📁 Directory already exists: all excels
+[2025-07-08 23:34:45] 📁 Directory already exists: logs/screenshots
+[2025-07-08 23:34:45] 📁 Directory already exists: all resumes/default
+[2025-07-08 23:34:45] 📁 Directory already exists: all resumes/temp
+[2025-07-08 23:34:45] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-08 23:34:45] SAFE MODE: Using guest profile, no history saved!
+[2025-07-08 23:41:24] Detailed error message omitted here for brevity...
+[2025-07-08 23:41:24] [ERROR] Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+#0 0x5d6ca116d23a <unknown>
+#1 0x5d6ca0c17ab0 <unknown>
+#2 0x5d6ca0bffc81 <unknown>
+#3 0x5d6ca0bff985 <unknown>
+#4 0x5d6ca0bfd7de <unknown>
+#5 0x5d6ca0bfe13f <unknown>
+#6 0x5d6ca0c0cbb3 <unknown>
+#7 0x5d6ca0c2606e <unknown>
+#8 0x5d6ca0c2c86b <unknown>
+#9 0x5d6ca0bfe880 <unknown>
+#10 0x5d6ca0c25dc8 <unknown>
+#11 0x5d6ca0cb4ebb <unknown>
+#12 0x5d6ca0c8ef73 <unknown>
+#13 0x5d6ca0c5baeb <unknown>
+#14 0x5d6ca0c5c751 <unknown>
+#15 0x5d6ca1131b4b <unknown>
+#16 0x5d6ca1135929 <unknown>
+#17 0x5d6ca1118929 <unknown>
+#18 0x5d6ca11364e8 <unknown>
+#19 0x5d6ca10fd0df <unknown>
+#20 0x5d6ca115a8e8 <unknown>
+#21 0x5d6ca115aac6 <unknown>
+#22 0x5d6ca116c556 <unknown>
+#23 0x7b7c0f894ac3 <unknown>
+: In Opening Chrome
+Traceback (most recent call last):
+  File "/home/wagle/garbageGold/app/linkedinBot/browser/open_chrome.py", line 42, in launch_browser
+    driver.maximize_window()
+    ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 506, in maximize_window
+    self.execute(command, None)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/home/wagle/garbageGold/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/wagle/garbageGold/.venv/lib/python3.13/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: timeout: Timed out receiving message from renderer: 300.000
+  (Session info: chrome=138.0.7204.49)
+Stacktrace:
+#0 0x5d6ca116d23a <unknown>
+#1 0x5d6ca0c17ab0 <unknown>
+#2 0x5d6ca0bffc81 <unknown>
+#3 0x5d6ca0bff985 <unknown>
+#4 0x5d6ca0bfd7de <unknown>
+#5 0x5d6ca0bfe13f <unknown>
+#6 0x5d6ca0c0cbb3 <unknown>
+#7 0x5d6ca0c2606e <unknown>
+#8 0x5d6ca0c2c86b <unknown>
+#9 0x5d6ca0bfe880 <unknown>
+#10 0x5d6ca0c25dc8 <unknown>
+#11 0x5d6ca0cb4ebb <unknown>
+#12 0x5d6ca0c8ef73 <unknown>
+#13 0x5d6ca0c5baeb <unknown>
+#14 0x5d6ca0c5c751 <unknown>
+#15 0x5d6ca1131b4b <unknown>
+#16 0x5d6ca1135929 <unknown>
+#17 0x5d6ca1118929 <unknown>
+#18 0x5d6ca11364e8 <unknown>
+#19 0x5d6ca10fd0df <unknown>
+#20 0x5d6ca115a8e8 <unknown>
+#21 0x5d6ca115aac6 <unknown>
+#22 0x5d6ca116c556 <unknown>
+#23 0x7b7c0f894ac3 <unknown>
+
+
+[2025-07-09 00:02:29] Critical error in main:
+[2025-07-09 00:02:29] [ERROR] 'NoneType' object has no attribute 'window_handles': In main
+Traceback (most recent call last):
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 758, in linkedinMain
+    applier.initialize_browser()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 250, in initialize_browser
+    self.stats.tabs_count = len(self.driver.window_handles)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'window_handles'
+
+[2025-07-09 00:02:40] 
+============================================================
+[2025-07-09 00:02:40] FINAL STATISTICS
+[2025-07-09 00:02:40] ============================================================
+[2025-07-09 00:02:40] Total runs:                     1
+[2025-07-09 00:02:40] Jobs Easy Applied:              0
+[2025-07-09 00:02:40] External job links collected:   0
+[2025-07-09 00:02:40]                               ----------
+[2025-07-09 00:02:40] Total applied or collected:     0
+[2025-07-09 00:02:40] 
+Failed jobs:                    0
+[2025-07-09 00:02:40] Irrelevant jobs skipped:        0
+[2025-07-09 00:02:40] 
+Every job is a self-portrait of the person who does it. Autograph your work with excellence.
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
