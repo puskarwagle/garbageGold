@@ -1,4 +1,12 @@
-def check_blacklist(rejected_jobs: set, job_id: str, company: str, blacklisted_companies: set) -> tuple[set, set, WebElement] | ValueError:
+from selenium.webdriver.remote.webelement import WebElement
+from browser.open_chrome import driver
+from browser.clickers_and_finders import try_find_by_classes, find_by_class, scroll_to_view
+from browser.helpers import buffer
+from config.search import about_company_good_words, about_company_bad_words
+from config.settings import click_gap
+from utils.logger import log
+
+def check_blacklist(rejected_jobs: set, job_id: str, company: str, blacklisted_companies: set) -> tuple[set, set, WebElement]:
     jobs_top_card = try_find_by_classes(driver, ["job-details-jobs-unified-top-card__primary-description-container","job-details-jobs-unified-top-card__primary-description","jobs-unified-top-card__primary-description","jobs-details__main-content"])
     about_company_org = find_by_class(driver, "jobs-company__box")
     scroll_to_view(driver, about_company_org)
@@ -7,7 +15,7 @@ def check_blacklist(rejected_jobs: set, job_id: str, company: str, blacklisted_c
     skip_checking = False
     for word in about_company_good_words:
         if word.lower() in about_company:
-            print_lg(f'Found the word "{word}". So, skipped checking for blacklist words.')
+            log(f'Found the word "{word}". So, skipped checking for blacklist words.')
             skip_checking = True
             break
     if not skip_checking:

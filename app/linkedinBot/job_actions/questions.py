@@ -1,3 +1,23 @@
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.remote.webelement import WebElement
+from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import NoSuchElementException
+from random import randint
+from time import sleep
+from browser.clickers_and_finders import try_xp, find_by_class
+from browser.open_chrome import actions
+from config.personals import *
+from config.questions import *
+from config.secrets import use_AI, ai_provider
+from ai.openaiConnections import ai_answer_question
+from ai.deepseekConnections import deepseek_answer_question
+from utils.logger import log, log_error
+
+randomly_answered_questions = set()
+aiClient = None
+user_information_all=user_information_all
+
 def answer_common_questions(label: str, answer: str) -> str:
     if 'sponsorship' in label or 'visa' in label: answer = require_visa
     return answer
@@ -85,7 +105,7 @@ def answer_questions(modal: WebElement, questions_list: set, work_location: str,
                                 break
                     if not foundOption:
                         #TODO: Use AI to answer the question need to be implemented logic to extract the options for the question
-                        print_lg(f'Failed to find an option with text "{answer}" for question labelled "{label_org}", answering randomly!')
+                        log_error(f'Failed to find an option with text "{answer}" for question labelled "{label_org}", answering randomly!')
                         select.select_by_index(randint(1, len(select.options)-1))
                         answer = select.first_selected_option.text
                         randomly_answered_questions.add((f'{label_org} [ {options} ]',"select"))
@@ -218,12 +238,12 @@ def answer_questions(modal: WebElement, questions_list: set, work_location: str,
                                 randomly_answered_questions.add((label_org, "text"))
                                 answer = years_of_experience
                             if answer and isinstance(answer, str) and len(answer) > 0:
-                                print_lg(f'AI Answered received for question "{label_org}" \nhere is answer: "{answer}"')
+                                log(f'AI Answered received for question "{label_org}" \nhere is answer: "{answer}"')
                             else:
                                 randomly_answered_questions.add((label_org, "text"))
                                 answer = years_of_experience
                         except Exception as e:
-                            print_lg("Failed to get AI answer!", e)
+                            log_error("Failed to get AI answer!", e)
                             randomly_answered_questions.add((label_org, "text"))
                             answer = years_of_experience
                     else:
@@ -262,12 +282,12 @@ def answer_questions(modal: WebElement, questions_list: set, work_location: str,
                                 randomly_answered_questions.add((label_org, "textarea"))
                                 answer = ""
                             if answer and isinstance(answer, str) and len(answer) > 0:
-                                print_lg(f'AI Answered received for question "{label_org}" \nhere is answer: "{answer}"')
+                                log(f'AI Answered received for question "{label_org}" \nhere is answer: "{answer}"')
                             else:
                                 randomly_answered_questions.add((label_org, "textarea"))
                                 answer = ""
                         except Exception as e:
-                            print_lg("Failed to get AI answer!", e)
+                            log_error("Failed to get AI answer!", e)
                             randomly_answered_questions.add((label_org, "textarea"))
                             answer = ""
                     else:
@@ -297,7 +317,7 @@ def answer_questions(modal: WebElement, questions_list: set, work_location: str,
                     actions.move_to_element(checkbox).click().perform()
                     checked = True
                 except Exception as e: 
-                    print_lg("Checkbox click failed!", e)
+                    log_error("Checkbox click failed!", e)
                     pass
             questions_list.add((f'{label} ([X] {answer})', checked, "checkbox", prev_answer))
             continue

@@ -61,3 +61,5 @@ def launch_browser():
         except NameError:
             exit()
         return None, None, None
+    
+driver, wait, actions = launch_browser()

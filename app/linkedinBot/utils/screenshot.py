@@ -1,3 +1,7 @@
+from datetime import datetime
+from selenium.webdriver.remote.webdriver import WebDriver
+from config.settings import logs_folder_path
+
 def screenshot(driver: WebDriver, job_id: str, failedAt: str) -> str:
     '''
     Function to to take screenshot for debugging

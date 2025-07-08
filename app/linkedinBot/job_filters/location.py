@@ -1,10 +1,18 @@
+from selenium.webdriver.common.keys import Keys
+from selenium.common.exceptions import ElementNotInteractableException
+from time import sleep
+from browser.open_chrome import driver, actions
+from browser.clickers_and_finders import try_xp, text_input
+from config.search import search_location
+from utils.logger import log, log_error
+
 def set_search_location() -> None:
     '''
     Function to set search location
     '''
     if search_location.strip():
         try:
-            print_lg(f'Setting search location as: "{search_location.strip()}"')
+            log(f'Setting search location as: "{search_location.strip()}"')
             search_location_ele = try_xp(driver, ".//input[@aria-label='City, state, or zip code'and not(@disabled)]", False) #  and not(@aria-hidden='true')]")
             text_input(actions, search_location_ele, search_location, "Search Location")
         except ElementNotInteractableException:
@@ -17,4 +25,4 @@ def set_search_location() -> None:
             try_xp(driver, ".//button[@aria-label='Cancel']")
         except Exception as e:
             try_xp(driver, ".//button[@aria-label='Cancel']")
-            print_lg("Failed to update search location, continuing with default location!", e)
+            log_error("Failed to update search location, continuing with default location!", e)
