@@ -1,9 +1,9 @@
-default_resume_path = "all resumes/default/resume.pdf"
+default_resume_path = "all resumes/default/Amit-Chaulagain.pdf"
 years_of_experience = "2"
 require_visa = "No"
 website = ""
 linkedIn = ""
-us_citizenship = "Yes"
+us_citizenship = "U.S. Citizen/Permanent Resident"
 
 desired_salary = 120000
 current_ctc = 800000

@@ -1,4 +1,4 @@
-default_resume_path = "all resumes/default/resume.pdf"
+default_resume_path = "all resumes/default/Amit-Chaulagain.pdf"
 years_of_experience = "2"
 require_visa = "No"
 website = ""
