@@ -1,7 +1,7 @@
 from selenium.webdriver.remote.webelement import WebElement
 from browser.open_chrome import driver
 from browser.clickers_and_finders import try_find_by_classes, find_by_class, scroll_to_view
-from browser.helpers import buffer
+from utils.helpers import buffer
 from config.search import about_company_good_words, about_company_bad_words
 from config.settings import click_gap
 from utils.logger import log

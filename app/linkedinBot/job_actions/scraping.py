@@ -11,13 +11,14 @@ from browser.open_chrome import driver, wait
 
 from config.settings import (
     file_name,
-    click_gap,
+    click_gap
+)
+from config.search import (
     bad_words,
     security_clearance,
     did_masters,
     current_experience
 )
-
 from utils.logger import log, log_error
 from utils.helpers import buffer
 from utils.experience import extract_years_of_experience

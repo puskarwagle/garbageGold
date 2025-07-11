@@ -4,7 +4,8 @@ from selenium.webdriver.remote.webelement import WebElement
 from browser.open_chrome import driver, wait
 from browser.clickers_and_finders import wait_span_click
 from tracking.failed import failed_job
-from config.settings import easy_apply_only, close_tabs, linkedIn_tab
+from config.settings import close_tabs
+from config.search import easy_apply_only
 from utils.logger import log, log_error
 
 tabs_count = 1

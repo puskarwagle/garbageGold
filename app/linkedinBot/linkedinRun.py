@@ -753,22 +753,25 @@ class JobApplier:
         
         # Inspirational quote
         quotes = [
-            "You're one step closer than before.",
-            "All the best with your future interviews.",
-            "Keep up with the progress. You got this.",
-            "If you're tired, learn to take rest but never give up.",
-            "Success is not final, failure is not fatal: It is the courage to continue that counts. - Winston Churchill",
-            "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle. - Christian D. Larson",
-            "Every job is a self-portrait of the person who does it. Autograph your work with excellence.",
-            "The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. - Steve Jobs",
-            "Opportunities don't happen, you create them. - Chris Grosser",
-            "The road to success and the road to failure are almost exactly the same. The difference is perseverance.",
-            "Obstacles are those frightful things you see when you take your eyes off your goal. - Henry Ford",
-            "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt"
+            "The best revenge is massive success. - Frank Sinatra",
+            "I have not failed. I've just found 10,000 ways that won't work. - Thomas Edison",
+            "Build something 100 people love, not something 1 million people kind of like. - Paul Graham",
+            "Stay hungry. Stay foolish. - Steve Jobs",
+            "The way to get started is to quit talking and begin doing. - Walt Disney",
+            "Don't be afraid to give up the good to go for the great. - John D. Rockefeller",
+            "Success is walking from failure to failure with no loss of enthusiasm. - Winston Churchill",
+            "If you're going through hell, keep going. - Winston Churchill",
+            "The only impossible journey is the one you never begin. - Tony Robbins",
+            "It is during our darkest moments that we must focus to see the light. - Aristotle",
+            "You miss 100% of the shots you don't take. - Wayne Gretzky",
+            "Whether you think you can or you think you can't, you're right. - Henry Ford",
+            "The future belongs to those who believe in the beauty of their dreams. - Eleanor Roosevelt",
+            "Don't watch the clock; do what it does. Keep going. - Sam Levenson",
+            "Believe you can and you're halfway there. - Theodore Roosevelt"
         ]
         
         quote = choice(quotes)
-        final_msg = f"\n{quote}\n\nBest regards,\nSai Vignesh Golla\nhttps://www.linkedin.com/in/saivigneshgolla/"
+        final_msg = f"\n{quote}\n\nBest regards : )"
         
         log(final_msg)
         pyautogui.alert(final_msg, "Application Complete")

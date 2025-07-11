@@ -1,0 +1,355 @@
+[2025-07-12 01:09:09] 📁 Directory already exists: all excels
+[2025-07-12 01:09:09] 📁 Directory already exists: all excels
+[2025-07-12 01:09:09] 📁 Directory already exists: logs/screenshots
+[2025-07-12 01:09:09] 📁 Directory already exists: all resumes/default
+[2025-07-12 01:09:09] 📁 Directory already exists: all resumes/temp
+[2025-07-12 01:09:09] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 01:09:09] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 01:18:26] 📁 Directory already exists: all excels
+[2025-07-12 01:18:26] 📁 Directory already exists: all excels
+[2025-07-12 01:18:26] 📁 Directory already exists: logs/screenshots
+[2025-07-12 01:18:26] 📁 Directory already exists: all resumes/default
+[2025-07-12 01:18:26] 📁 Directory already exists: all resumes/temp
+[2025-07-12 01:18:26] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 01:18:26] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 01:24:58] 📁 Directory already exists: all excels
+[2025-07-12 01:24:58] 📁 Directory already exists: all excels
+[2025-07-12 01:24:58] 📁 Directory already exists: logs/screenshots
+[2025-07-12 01:24:58] 📁 Directory already exists: all resumes/default
+[2025-07-12 01:24:58] 📁 Directory already exists: all resumes/temp
+[2025-07-12 01:24:58] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 01:24:58] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 01:27:24] 📁 Directory already exists: all excels
+[2025-07-12 01:27:24] 📁 Directory already exists: all excels
+[2025-07-12 01:27:24] 📁 Directory already exists: logs/screenshots
+[2025-07-12 01:27:24] 📁 Directory already exists: all resumes/default
+[2025-07-12 01:27:24] 📁 Directory already exists: all resumes/temp
+[2025-07-12 01:27:24] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 01:27:24] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 01:30:30] 📁 Directory already exists: all excels
+[2025-07-12 01:30:30] 📁 Directory already exists: all excels
+[2025-07-12 01:30:30] 📁 Directory already exists: logs/screenshots
+[2025-07-12 01:30:30] 📁 Directory already exists: all resumes/default
+[2025-07-12 01:30:30] 📁 Directory already exists: all resumes/temp
+[2025-07-12 01:30:30] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 01:30:30] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 01:32:24] 📁 Directory already exists: all excels
+[2025-07-12 01:32:24] 📁 Directory already exists: all excels
+[2025-07-12 01:32:24] 📁 Directory already exists: logs/screenshots
+[2025-07-12 01:32:24] 📁 Directory already exists: all resumes/default
+[2025-07-12 01:32:24] 📁 Directory already exists: all resumes/temp
+[2025-07-12 01:32:24] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 01:32:24] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 01:39:40] 📁 Directory already exists: all excels
+[2025-07-12 01:39:40] 📁 Directory already exists: all excels
+[2025-07-12 01:39:40] 📁 Directory already exists: logs/screenshots
+[2025-07-12 01:39:40] 📁 Directory already exists: all resumes/default
+[2025-07-12 01:39:40] 📁 Directory already exists: all resumes/temp
+[2025-07-12 01:39:40] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 01:39:40] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 01:39:44] Critical error in main:
+[2025-07-12 01:39:44] [ERROR] Invalid input for us_citizenship. Expecting a value from ['U.S. Citizen/Permanent Resident', 'Non-citizen allowed to work for any employer', 'Non-citizen allowed to work for current employer', 'Non-citizen seeking work authorization', 'Canadian Citizen/Permanent Resident', 'Other'], not Yes!: In main
+Traceback (most recent call last):
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 802, in linkedinMain
+    validate_config()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 201, in validate_config
+    validate_questions()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 72, in validate_questions
+    check_string(us_citizenship, "us_citizenship", ["U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident", "Other"])
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 16, in check_string
+    if len(options) > 0 and var not in options: raise ValueError(f'Invalid input for {var_name}. Expecting a value from {options}, not {var}!')
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid input for us_citizenship. Expecting a value from ['U.S. Citizen/Permanent Resident', 'Non-citizen allowed to work for any employer', 'Non-citizen allowed to work for current employer', 'Non-citizen seeking work authorization', 'Canadian Citizen/Permanent Resident', 'Other'], not Yes!
+
+[2025-07-12 01:39:59] 
+============================================================
+[2025-07-12 01:39:59] FINAL STATISTICS
+[2025-07-12 01:39:59] ============================================================
+[2025-07-12 01:39:59] Total runs:                     1
+[2025-07-12 01:39:59] Jobs Easy Applied:              0
+[2025-07-12 01:39:59] External job links collected:   0
+[2025-07-12 01:39:59]                               ----------
+[2025-07-12 01:39:59] Total applied or collected:     0
+[2025-07-12 01:39:59] 
+Failed jobs:                    0
+[2025-07-12 01:39:59] Irrelevant jobs skipped:        0
+[2025-07-12 01:39:59] 
+Keep up with the progress. You got this.
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
+[2025-07-12 01:48:48] 📁 Directory already exists: all excels
+[2025-07-12 01:48:48] 📁 Directory already exists: all excels
+[2025-07-12 01:48:48] 📁 Directory already exists: logs/screenshots
+[2025-07-12 01:48:48] 📁 Directory already exists: all resumes/default
+[2025-07-12 01:48:48] 📁 Directory already exists: all resumes/temp
+[2025-07-12 01:48:48] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 01:48:48] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 01:48:54] Critical error in main:
+[2025-07-12 01:48:54] [ERROR] Invalid input for us_citizenship. Expecting a value from ['U.S. Citizen/Permanent Resident', 'Non-citizen allowed to work for any employer', 'Non-citizen allowed to work for current employer', 'Non-citizen seeking work authorization', 'Canadian Citizen/Permanent Resident', 'Other'], not Yes!: In main
+Traceback (most recent call last):
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 802, in linkedinMain
+    validate_config()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 201, in validate_config
+    validate_questions()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 72, in validate_questions
+    check_string(us_citizenship, "us_citizenship", ["U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident", "Other"])
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 16, in check_string
+    if len(options) > 0 and var not in options: raise ValueError(f'Invalid input for {var_name}. Expecting a value from {options}, not {var}!')
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid input for us_citizenship. Expecting a value from ['U.S. Citizen/Permanent Resident', 'Non-citizen allowed to work for any employer', 'Non-citizen allowed to work for current employer', 'Non-citizen seeking work authorization', 'Canadian Citizen/Permanent Resident', 'Other'], not Yes!
+
+[2025-07-12 01:48:57] 
+============================================================
+[2025-07-12 01:48:57] FINAL STATISTICS
+[2025-07-12 01:48:57] ============================================================
+[2025-07-12 01:48:57] Total runs:                     1
+[2025-07-12 01:48:57] Jobs Easy Applied:              0
+[2025-07-12 01:48:57] External job links collected:   0
+[2025-07-12 01:48:57]                               ----------
+[2025-07-12 01:48:57] Total applied or collected:     0
+[2025-07-12 01:48:57] 
+Failed jobs:                    0
+[2025-07-12 01:48:57] Irrelevant jobs skipped:        0
+[2025-07-12 01:48:57] 
+The road to success and the road to failure are almost exactly the same. The difference is perseverance.
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
+[2025-07-12 01:51:26] 📁 Directory already exists: all excels
+[2025-07-12 01:51:26] 📁 Directory already exists: all excels
+[2025-07-12 01:51:26] 📁 Directory already exists: logs/screenshots
+[2025-07-12 01:51:26] 📁 Directory already exists: all resumes/default
+[2025-07-12 01:51:26] 📁 Directory already exists: all resumes/temp
+[2025-07-12 01:51:26] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 01:51:26] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 01:51:30] Critical error in main:
+[2025-07-12 01:51:30] [ERROR] The variable "current_experience" in "config/search.py" must be an Integer!
+Received "5" of type "<class 'str'>" instead!
+
+Solution:
+Please open "config/search.py" and update "current_experience" to be an Integer.
+Example: `current_experience = 10`
+
+NOTE: Do NOT surround Integer values in quotes ("10")X !
+
+: In main
+Traceback (most recent call last):
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 802, in linkedinMain
+    validate_config()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 202, in validate_config
+    validate_search()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 128, in validate_search
+    check_int(current_experience, "current_experience", -1)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 5, in check_int
+    if not isinstance(var, int): raise TypeError(f'The variable "{var_name}" in "{__validation_file_path}" must be an Integer!\nReceived "{var}" of type "{type(var)}" instead!\n\nSolution:\nPlease open "{__validation_file_path}" and update "{var_name}" to be an Integer.\nExample: `{var_name} = 10`\n\nNOTE: Do NOT surround Integer values in quotes ("10")X !\n\n')
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: The variable "current_experience" in "config/search.py" must be an Integer!
+Received "5" of type "<class 'str'>" instead!
+
+Solution:
+Please open "config/search.py" and update "current_experience" to be an Integer.
+Example: `current_experience = 10`
+
+NOTE: Do NOT surround Integer values in quotes ("10")X !
+
+
+
+[2025-07-12 02:03:34] 
+============================================================
+[2025-07-12 02:03:34] FINAL STATISTICS
+[2025-07-12 02:03:34] ============================================================
+[2025-07-12 02:03:34] Total runs:                     1
+[2025-07-12 02:03:34] Jobs Easy Applied:              0
+[2025-07-12 02:03:34] External job links collected:   0
+[2025-07-12 02:03:34]                               ----------
+[2025-07-12 02:03:34] Total applied or collected:     0
+[2025-07-12 02:03:34] 
+Failed jobs:                    0
+[2025-07-12 02:03:34] Irrelevant jobs skipped:        0
+[2025-07-12 02:03:34] 
+The road to success and the road to failure are almost exactly the same. The difference is perseverance.
+
+Best regards,
+Sai Vignesh Golla
+https://www.linkedin.com/in/saivigneshgolla/
+[2025-07-12 02:09:13] 📁 Directory already exists: all excels
+[2025-07-12 02:09:13] 📁 Directory already exists: all excels
+[2025-07-12 02:09:13] 📁 Directory already exists: logs/screenshots
+[2025-07-12 02:09:13] 📁 Directory already exists: all resumes/default
+[2025-07-12 02:09:13] 📁 Directory already exists: all resumes/temp
+[2025-07-12 02:09:13] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 02:09:13] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 02:09:19] Critical error in main:
+[2025-07-12 02:09:19] [ERROR] The variable "current_experience" in "config/search.py" must be an Integer!
+Received "5" of type "<class 'str'>" instead!
+
+Solution:
+Please open "config/search.py" and update "current_experience" to be an Integer.
+Example: `current_experience = 10`
+
+NOTE: Do NOT surround Integer values in quotes ("10")X !
+
+: In main
+Traceback (most recent call last):
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 805, in linkedinMain
+    validate_config()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 202, in validate_config
+    validate_search()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 128, in validate_search
+    check_int(current_experience, "current_experience", -1)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 5, in check_int
+    if not isinstance(var, int): raise TypeError(f'The variable "{var_name}" in "{__validation_file_path}" must be an Integer!\nReceived "{var}" of type "{type(var)}" instead!\n\nSolution:\nPlease open "{__validation_file_path}" and update "{var_name}" to be an Integer.\nExample: `{var_name} = 10`\n\nNOTE: Do NOT surround Integer values in quotes ("10")X !\n\n')
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: The variable "current_experience" in "config/search.py" must be an Integer!
+Received "5" of type "<class 'str'>" instead!
+
+Solution:
+Please open "config/search.py" and update "current_experience" to be an Integer.
+Example: `current_experience = 10`
+
+NOTE: Do NOT surround Integer values in quotes ("10")X !
+
+
+
+[2025-07-12 02:09:27] 
+============================================================
+[2025-07-12 02:09:27] FINAL STATISTICS
+[2025-07-12 02:09:27] ============================================================
+[2025-07-12 02:09:27] Total runs:                     1
+[2025-07-12 02:09:27] Jobs Easy Applied:              0
+[2025-07-12 02:09:27] External job links collected:   0
+[2025-07-12 02:09:27]                               ----------
+[2025-07-12 02:09:27] Total applied or collected:     0
+[2025-07-12 02:09:27] 
+Failed jobs:                    0
+[2025-07-12 02:09:27] Irrelevant jobs skipped:        0
+[2025-07-12 02:09:27] 
+Success is walking from failure to failure with no loss of enthusiasm. - Winston Churchill
+
+Best regards : )
+[2025-07-12 02:26:40] 📁 Directory already exists: all excels
+[2025-07-12 02:26:40] 📁 Directory already exists: all excels
+[2025-07-12 02:26:40] 📁 Directory already exists: logs/screenshots
+[2025-07-12 02:26:40] 📁 Directory already exists: all resumes/default
+[2025-07-12 02:26:40] 📁 Directory already exists: all resumes/temp
+[2025-07-12 02:26:40] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 02:26:40] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 02:30:32] 📁 Directory already exists: all excels
+[2025-07-12 02:30:32] 📁 Directory already exists: all excels
+[2025-07-12 02:30:32] 📁 Directory already exists: logs/screenshots
+[2025-07-12 02:30:32] 📁 Directory already exists: all resumes/default
+[2025-07-12 02:30:32] 📁 Directory already exists: all resumes/temp
+[2025-07-12 02:30:32] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 02:30:32] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 02:30:36] Critical error in main:
+[2025-07-12 02:30:36] [ERROR] Invalid input for us_citizenship. Expecting a value from ['U.S. Citizen/Permanent Resident', 'Non-citizen allowed to work for any employer', 'Non-citizen allowed to work for current employer', 'Non-citizen seeking work authorization', 'Canadian Citizen/Permanent Resident', 'Other'], not Yes!: In main
+Traceback (most recent call last):
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 805, in linkedinMain
+    validate_config()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 201, in validate_config
+    validate_questions()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 72, in validate_questions
+    check_string(us_citizenship, "us_citizenship", ["U.S. Citizen/Permanent Resident", "Non-citizen allowed to work for any employer", "Non-citizen allowed to work for current employer", "Non-citizen seeking work authorization", "Canadian Citizen/Permanent Resident", "Other"])
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 16, in check_string
+    if len(options) > 0 and var not in options: raise ValueError(f'Invalid input for {var_name}. Expecting a value from {options}, not {var}!')
+                                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid input for us_citizenship. Expecting a value from ['U.S. Citizen/Permanent Resident', 'Non-citizen allowed to work for any employer', 'Non-citizen allowed to work for current employer', 'Non-citizen seeking work authorization', 'Canadian Citizen/Permanent Resident', 'Other'], not Yes!
+
+[2025-07-12 02:32:01] 📁 Directory already exists: all excels
+[2025-07-12 02:32:01] 📁 Directory already exists: all excels
+[2025-07-12 02:32:01] 📁 Directory already exists: logs/screenshots
+[2025-07-12 02:32:01] 📁 Directory already exists: all resumes/default
+[2025-07-12 02:32:01] 📁 Directory already exists: all resumes/temp
+[2025-07-12 02:32:01] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 02:32:01] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 02:32:05] Critical error in main:
+[2025-07-12 02:32:05] [ERROR] Invalid input for username. Expecting a String of length at least 5!: In main
+Traceback (most recent call last):
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 805, in linkedinMain
+    validate_config()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 203, in validate_config
+    validate_secrets()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 141, in validate_secrets
+    check_string(username, "username", min_length=5)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 15, in check_string
+    if min_length > 0 and len(var) < min_length: raise ValueError(f'Invalid input for {var_name}. Expecting a String of length at least {min_length}!')
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid input for username. Expecting a String of length at least 5!
+
+[2025-07-12 02:32:17] 
+============================================================
+[2025-07-12 02:32:17] FINAL STATISTICS
+[2025-07-12 02:32:17] ============================================================
+[2025-07-12 02:32:17] Total runs:                     1
+[2025-07-12 02:32:17] Jobs Easy Applied:              0
+[2025-07-12 02:32:17] External job links collected:   0
+[2025-07-12 02:32:17]                               ----------
+[2025-07-12 02:32:17] Total applied or collected:     0
+[2025-07-12 02:32:17] 
+Failed jobs:                    0
+[2025-07-12 02:32:17] Irrelevant jobs skipped:        0
+[2025-07-12 02:32:17] 
+The way to get started is to quit talking and begin doing. - Walt Disney
+
+Best regards : )
+[2025-07-12 02:32:29] 
+============================================================
+[2025-07-12 02:32:29] FINAL STATISTICS
+[2025-07-12 02:32:29] ============================================================
+[2025-07-12 02:32:29] Total runs:                     1
+[2025-07-12 02:32:29] Jobs Easy Applied:              0
+[2025-07-12 02:32:29] External job links collected:   0
+[2025-07-12 02:32:29]                               ----------
+[2025-07-12 02:32:29] Total applied or collected:     0
+[2025-07-12 02:32:29] 
+Failed jobs:                    0
+[2025-07-12 02:32:29] Irrelevant jobs skipped:        0
+[2025-07-12 02:32:29] 
+Success is walking from failure to failure with no loss of enthusiasm. - Winston Churchill
+
+Best regards : )
+[2025-07-12 02:41:49] 📁 Directory already exists: all excels
+[2025-07-12 02:41:49] 📁 Directory already exists: all excels
+[2025-07-12 02:41:49] 📁 Directory already exists: logs/screenshots
+[2025-07-12 02:41:49] 📁 Directory already exists: all resumes/default
+[2025-07-12 02:41:49] 📁 Directory already exists: all resumes/temp
+[2025-07-12 02:41:49] IF YOU HAVE MORE THAN 10 TABS OPENED, PLEASE CLOSE OR BOOKMARK THEM!
+[2025-07-12 02:41:49] SAFE MODE: Using guest profile, no history saved!
+[2025-07-12 02:41:52] Critical error in main:
+[2025-07-12 02:41:52] [ERROR] Invalid input for llm_api_url. Expecting a String of length at least 5!: In main
+Traceback (most recent call last):
+  File "/home/wagle/garbageGold/app/linkedinBot/linkedinRun.py", line 805, in linkedinMain
+    validate_config()
+    ~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 203, in validate_config
+    validate_secrets()
+    ~~~~~~~~~~~~~~~~^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 145, in validate_secrets
+    check_string(llm_api_url, "llm_api_url", min_length=5)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wagle/garbageGold/app/linkedinBot/utils/validator.py", line 15, in check_string
+    if min_length > 0 and len(var) < min_length: raise ValueError(f'Invalid input for {var_name}. Expecting a String of length at least {min_length}!')
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Invalid input for llm_api_url. Expecting a String of length at least 5!
+

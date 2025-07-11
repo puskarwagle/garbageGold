@@ -3,9 +3,11 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.remote.webelement import WebElement
 from browser.open_chrome import driver, wait, actions
-from utils.helpers import buffer, wait_span_click, multi_sel_noWait, boolean_button_click
+from utils.helpers import buffer
+from browser.clickers_and_finders import wait_span_click, multi_sel_noWait, boolean_button_click
 from job_filters.location import set_search_location
-from config.settings import click_gap, pause_after_filters
+from config.settings import click_gap
+from config.search import pause_after_filters
 from config.search import sort_by, date_posted, experience_level, companies, job_type, on_site, easy_apply_only, location, industry, job_function, job_titles, under_10_applicants, in_your_network, fair_chance_employer, salary, benefits, commitments
 from utils.logger import log_error
 

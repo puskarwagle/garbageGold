@@ -1,23 +1,24 @@
-default_resume_path = ""
-years_of_experience = ""
-require_visa = ""
+default_resume_path = "all resumes/default/resume.pdf"
+years_of_experience = "2"
+require_visa = "No"
 website = ""
 linkedIn = ""
-us_citizenship = ""
+us_citizenship = "Yes"
 
-desired_salary = 0
-current_ctc = 0
+desired_salary = 120000
+current_ctc = 800000
 
-notice_period = 0
-linkedin_headline = ""
-linkedin_summary = """"""
+notice_period = 30
+linkedin_headline = "Full Stack Developer with Masters in Computer Science and 4+ years of experience"
+linkedin_summary = """I\'m a Senior Software Engineer at Amazon with Masters in CS and 4+ years of experience in developing and maintaining Full Stack Web applications and cloud solutions. 
+Specialized in React, Node.js, and Python."""
 cover_letter = """"""
 user_information_all = """"""
-recent_employer = ""
-confidence_level = ""
+recent_employer = "Snowflake"
+confidence_level = "High"
 
 # >>>>>>>>>>> RELATED SETTINGS <<<<<<<<<<<
 
 pause_before_submit = True
 pause_at_failed_question = True
-overwrite_previous_answers = True
+overwrite_previous_answers = False
