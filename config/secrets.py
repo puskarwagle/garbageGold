@@ -1,10 +1,10 @@
 ###################################################### CONFIGURE YOUR TOOLS HERE ######################################################
 # Login Credentials for LinkedIn (Optional)
-username = "puskarwagle17@gmail.com" # Enter your username in the quotes
-password = "Karmaamputee#123" # Enter your password in the quotes
+username = "puskarwagle17@gmail.com"
+password = "Karmaamputee#123"
 ## Artificial Intelligence (Beta Not-Recommended)
 # Use AI
-use_AI = True # True or False, Note: True or False are case-sensitive
+use_AI = False # True or False, Note: True or False are case-sensitive
 '''
 Note: Set it as True only if you want to use AI, and If you either have a
 1. Local LLM model running on your local machine, with it's APIs exposed. Example softwares to achieve it are:
