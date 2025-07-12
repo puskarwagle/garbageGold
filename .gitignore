@@ -15,6 +15,7 @@ venv/
 
 # Logs, debug, screenshots
 logs/log.txt
+app/linkedinBot/logs/
 notes.txt
 deprecated/
 
